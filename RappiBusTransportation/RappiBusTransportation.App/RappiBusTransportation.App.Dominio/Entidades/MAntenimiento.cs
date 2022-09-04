@@ -10,6 +10,10 @@ public class Mantenimiento
     public string IdMecanico {get;set;}
     public string IdAuxiliar {get;set;}
     public string FechaMantenimiento {get;set;}
+    public string FechaMantenimiento {get;set;}
+    
+
+
 
 }
 
