@@ -1,0 +1,5 @@
+C:\Repositorios\Repositorios Mintic\Jinetesespaciaciales\RappiBusTransportation\RappiBusTransportation.App\RappiBusTransportation.App.Dominio\obj\Debug\net6.0\RappiBusTransportation.App.Dominio.csproj.AssemblyReference.cache
+C:\Repositorios\Repositorios Mintic\Jinetesespaciaciales\RappiBusTransportation\RappiBusTransportation.App\RappiBusTransportation.App.Dominio\obj\Debug\net6.0\RappiBusTransportation.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositorios\Repositorios Mintic\Jinetesespaciaciales\RappiBusTransportation\RappiBusTransportation.App\RappiBusTransportation.App.Dominio\obj\Debug\net6.0\RappiBusTransportation.App.Dominio.AssemblyInfoInputs.cache
+C:\Repositorios\Repositorios Mintic\Jinetesespaciaciales\RappiBusTransportation\RappiBusTransportation.App\RappiBusTransportation.App.Dominio\obj\Debug\net6.0\RappiBusTransportation.App.Dominio.AssemblyInfo.cs
+C:\Repositorios\Repositorios Mintic\Jinetesespaciaciales\RappiBusTransportation\RappiBusTransportation.App\RappiBusTransportation.App.Dominio\obj\Debug\net6.0\RappiBusTransportation.App.Dominio.csproj.CoreCompileInputs.cache

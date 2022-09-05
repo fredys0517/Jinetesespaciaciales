@@ -1,5 +1,4 @@
 using System;
-
 namespace RappiBusTransportation.App.Dominio
 {
     public class Persona

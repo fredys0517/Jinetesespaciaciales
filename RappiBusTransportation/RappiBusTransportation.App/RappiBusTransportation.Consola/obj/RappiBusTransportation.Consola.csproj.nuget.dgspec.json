@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Persistencia\\RappiBusTransportation.App.persistencia.csproj": {}
+    "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.Consola\\RappiBusTransportation.Consola.csproj": {}
   },
   "projects": {
     "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Dominio\\RappiBusTransportation.App.Dominio.csproj": {
@@ -110,6 +110,74 @@
               "version": "[6.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.Consola\\RappiBusTransportation.Consola.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.Consola\\RappiBusTransportation.Consola.csproj",
+        "projectName": "RappiBusTransportation.Consola",
+        "projectPath": "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.Consola\\RappiBusTransportation.Consola.csproj",
+        "packagesPath": "C:\\Users\\Jotace\\.nuget\\packages\\",
+        "outputPath": "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.Consola\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jotace\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Dominio\\RappiBusTransportation.App.Dominio.csproj": {
+                "projectPath": "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Dominio\\RappiBusTransportation.App.Dominio.csproj"
+              },
+              "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Persistencia\\RappiBusTransportation.App.persistencia.csproj": {
+                "projectPath": "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Persistencia\\RappiBusTransportation.App.persistencia.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",

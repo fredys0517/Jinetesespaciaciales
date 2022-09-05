@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VhKdCzcsG5eb5fOpzL7G+Dq/q9Bh5Ld24Y4qk1DnPrmIzH6eozevfsiEHrqvQ+wPKOCKNZAa8HHhniNHYCUSCA==",
+  "dgSpecHash": "WuF0j5Kp2UaPR11YHQm0uJYfXRwFRobz3BcUFxjaldWCo/ufE1vRpQx9b1B+BBjOkOZgCgxs77AJyMMrKBwMEA==",
   "success": true,
-  "projectFilePath": "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Persistencia\\RappiBusTransportation.App.persistencia.csproj",
+  "projectFilePath": "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.Consola\\RappiBusTransportation.Consola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jotace\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Jotace\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
@@ -14,7 +14,6 @@
     "C:\\Users\\Jotace\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.8\\microsoft.entityframeworkcore.design.6.0.8.nupkg.sha512",
     "C:\\Users\\Jotace\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.8\\microsoft.entityframeworkcore.relational.6.0.8.nupkg.sha512",
     "C:\\Users\\Jotace\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.8\\microsoft.entityframeworkcore.sqlserver.6.0.8.nupkg.sha512",
-    "C:\\Users\\Jotace\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.8\\microsoft.entityframeworkcore.tools.6.0.8.nupkg.sha512",
     "C:\\Users\\Jotace\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Jotace\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "C:\\Users\\Jotace\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
