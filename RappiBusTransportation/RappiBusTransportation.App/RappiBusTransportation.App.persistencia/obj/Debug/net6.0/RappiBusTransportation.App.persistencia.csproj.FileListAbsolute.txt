@@ -12,3 +12,6 @@ C:\Repositorios\Repositorios Mintic\Jinetesespaciaciales\RappiBusTransportation\
 C:\Repositorios\Repositorios Mintic\Jinetesespaciaciales\RappiBusTransportation\RappiBusTransportation.App\RappiBusTransportation.App.persistencia\obj\Debug\net6.0\RappiBusTransportation.App.persistencia.pdb
 C:\Repositorios\Repositorios Mintic\Jinetesespaciaciales\RappiBusTransportation\RappiBusTransportation.App\RappiBusTransportation.App.persistencia\obj\Debug\net6.0\RappiBusTransportation.App.persistencia.genruntimeconfig.cache
 C:\Repositorios\Repositorios Mintic\Jinetesespaciaciales\RappiBusTransportation\RappiBusTransportation.App\RappiBusTransportation.App.persistencia\obj\Debug\net6.0\ref\RappiBusTransportation.App.persistencia.dll
+C:\Users\DELL\Escritorio\Jinetesespaciaciales\RappiBusTransportation\RappiBusTransportation.App\RappiBusTransportation.App.Persistencia\obj\Debug\net6.0\RappiBusTransportation.App.persistencia.dll
+C:\Users\DELL\Escritorio\Jinetesespaciaciales\RappiBusTransportation\RappiBusTransportation.App\RappiBusTransportation.App.Persistencia\obj\Debug\net6.0\refint\RappiBusTransportation.App.persistencia.dll
+C:\Users\DELL\Escritorio\Jinetesespaciaciales\RappiBusTransportation\RappiBusTransportation.App\RappiBusTransportation.App.Persistencia\obj\Debug\net6.0\RappiBusTransportation.App.persistencia.pdb

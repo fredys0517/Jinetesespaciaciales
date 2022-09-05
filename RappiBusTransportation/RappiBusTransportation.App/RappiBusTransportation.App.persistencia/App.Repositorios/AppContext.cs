@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using RappiBusTransportation.App.Dominio;
-using RappiBusTransportation.App.Persistencia;
+using RappiBusTransportation.App.persistencia;
 
 namespace RappiBusTransportation.App.persistencia
 {

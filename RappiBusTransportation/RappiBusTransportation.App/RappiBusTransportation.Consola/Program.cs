@@ -2,7 +2,7 @@
 
 using System;
 using RappiBusTransportation.App.Dominio;
-using RappiBusTransportation.App.Persistencia;
+using RappiBusTransportation.App.persistencia;
 
 
 namespace RappiBusTransportation.App.Consola
