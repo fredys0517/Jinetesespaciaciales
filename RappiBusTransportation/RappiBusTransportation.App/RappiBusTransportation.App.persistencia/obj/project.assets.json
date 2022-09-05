@@ -2035,11 +2035,27 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Persistencia\\RappiBusTransportation.App.persistencia.csproj",
+=======
+<<<<<<< HEAD
+      "projectUniqueName": "C:\\Users\\DELL\\Escritorio\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.persistencia\\RappiBusTransportation.App.persistencia.csproj",
+      "projectName": "RappiBusTransportation.App.persistencia",
+      "projectPath": "C:\\Users\\DELL\\Escritorio\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.persistencia\\RappiBusTransportation.App.persistencia.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\DELL\\Escritorio\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.persistencia\\obj\\",
+=======
+      "projectUniqueName": "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.persistencia\\RappiBusTransportation.App.persistencia.csproj",
+>>>>>>> f48a389652f3676482bf5d86e1392ef734a65146
       "projectName": "RappiBusTransportation.App.persistencia",
       "projectPath": "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Persistencia\\RappiBusTransportation.App.persistencia.csproj",
       "packagesPath": "C:\\Users\\Jotace\\.nuget\\packages\\",
+<<<<<<< HEAD
       "outputPath": "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Persistencia\\obj\\",
+=======
+      "outputPath": "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.persistencia\\obj\\",
+>>>>>>> 06cbb3671696a0ea3e055234a0a28f1c241e8e2e
+>>>>>>> f48a389652f3676482bf5d86e1392ef734a65146
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jotace\\AppData\\Roaming\\NuGet\\NuGet.Config"
