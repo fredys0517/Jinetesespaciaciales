@@ -1,47 +1,27 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Persistencia\\RappiBusTransportation.App.persistencia.csproj": {}
-=======
-<<<<<<< HEAD
-    "C:\\Users\\DELL\\Escritorio\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.persistencia\\RappiBusTransportation.App.persistencia.csproj": {}
+    "C:\\Users\\DELL\\Escritorio\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Persistencia\\RappiBusTransportation.App.persistencia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\Escritorio\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.persistencia\\RappiBusTransportation.App.persistencia.csproj": {
+    "C:\\Users\\DELL\\Escritorio\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Dominio\\RappiBusTransportation.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Escritorio\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.persistencia\\RappiBusTransportation.App.persistencia.csproj",
-        "projectName": "RappiBusTransportation.App.persistencia",
-        "projectPath": "C:\\Users\\DELL\\Escritorio\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.persistencia\\RappiBusTransportation.App.persistencia.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Escritorio\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.persistencia\\obj\\",
-=======
-    "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.persistencia\\RappiBusTransportation.App.persistencia.csproj": {}
->>>>>>> f48a389652f3676482bf5d86e1392ef734a65146
-  },
-  "projects": {
-    "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Dominio\\RappiBusTransportation.App.Dominio.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Dominio\\RappiBusTransportation.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Escritorio\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Dominio\\RappiBusTransportation.App.Dominio.csproj",
         "projectName": "RappiBusTransportation.App.Dominio",
-        "projectPath": "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Dominio\\RappiBusTransportation.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\Jotace\\.nuget\\packages\\",
-<<<<<<< HEAD
-        "outputPath": "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Dominio\\obj\\",
-=======
-        "outputPath": "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.persistencia\\obj\\",
->>>>>>> 06cbb3671696a0ea3e055234a0a28f1c241e8e2e
->>>>>>> f48a389652f3676482bf5d86e1392ef734a65146
+        "projectPath": "C:\\Users\\DELL\\Escritorio\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Dominio\\RappiBusTransportation.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Escritorio\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jotace\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -79,30 +59,32 @@
         }
       }
     },
-    "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Persistencia\\RappiBusTransportation.App.persistencia.csproj": {
+    "C:\\Users\\DELL\\Escritorio\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Persistencia\\RappiBusTransportation.App.persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Persistencia\\RappiBusTransportation.App.persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Escritorio\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Persistencia\\RappiBusTransportation.App.persistencia.csproj",
         "projectName": "RappiBusTransportation.App.persistencia",
-        "projectPath": "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Persistencia\\RappiBusTransportation.App.persistencia.csproj",
-        "packagesPath": "C:\\Users\\Jotace\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Persistencia\\obj\\",
+        "projectPath": "C:\\Users\\DELL\\Escritorio\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Persistencia\\RappiBusTransportation.App.persistencia.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DELL\\Escritorio\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Jotace\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Dominio\\RappiBusTransportation.App.Dominio.csproj": {
-                "projectPath": "C:\\Repositorios\\Repositorios Mintic\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Dominio\\RappiBusTransportation.App.Dominio.csproj"
+              "C:\\Users\\DELL\\Escritorio\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Dominio\\RappiBusTransportation.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Escritorio\\Jinetesespaciaciales\\RappiBusTransportation\\RappiBusTransportation.App\\RappiBusTransportation.App.Dominio\\RappiBusTransportation.App.Dominio.csproj"
               }
             }
           }
