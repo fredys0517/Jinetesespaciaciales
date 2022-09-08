@@ -12,7 +12,7 @@ namespace RBT.App.Dominio
         public int IdSoat { get; set; }
         public string FechaCompra {get;set;}
         public string FechaVencimiento {get;set;}
-        public string FkIdVehiculo {get;set;}
+        public Vehiculo FkIdVehiculo {get;set;}
         
 
     }

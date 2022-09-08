@@ -16,8 +16,8 @@ namespace RBT.App.Dominio
         public string Cilindraje {get;set;}
         public string PaisOrigen {get;set;}
         public string CaracteristicasExtra {get;set;}
-        public string FkIdMecanico {get;set;}
-        public string FkIdPropietario {get;set;}
+        public Mecanico FkIdMecanico {get;set;}
+        public Propietario FkIdPropietario {get;set;}
 
     }
 }

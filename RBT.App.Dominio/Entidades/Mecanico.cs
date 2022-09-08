@@ -5,13 +5,12 @@ using System.Threading.Tasks;
 
 namespace RBT.App.Dominio
 {
-    public class Mecanico
+    public class Mecanico:Persona
     {
-        
-        public int FkIdPersona { get; set; }
-        public string FkIdMecanico {get;set;}
+        public int IdMecanico {get;set;}
+        public Persona FkIdPersona { get; set; }
         public string Direccion {get;set;}
-        public string NivelEstudio {get;set;}
+        public string NivelEstudios {get;set;}
         
 
     }

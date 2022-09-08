@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace RBT.App.Dominio
 {
-    public class UsuarioApp
+    public class UsuarioApp:Persona
     {
         
         public int IdUsuarioApp { get; set; }
-        public string FkIdPersona {get;set;}
+        public Persona FkIdPersona {get;set;}
        
 
     }

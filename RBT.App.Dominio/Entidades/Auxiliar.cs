@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace RBT.App.Dominio.Entidades
 {
-    public class Auxiliar
+    public class Auxiliar:Persona
     {
-        public string IdAuxiliar {get;set;}
-        public string FkIdPersona {get;set;}
+        public int IdAuxiliar {get;set;}
+        public Persona FkIdPersona {get;set;}
     }
 }

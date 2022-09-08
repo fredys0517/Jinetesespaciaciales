@@ -6,8 +6,8 @@ namespace RBT.App.Persistencia
     public class AppContext : DbContext
     {
         
-               
-        public DbSet<Persona> Personas {get;set;}
+        public DbSet<Persona> Persona {get;set;}       
+        public DbSet<Mecanico> Mecanico {get;set;}
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -15,7 +15,7 @@ namespace RBT.App.Persistencia
             if (!optionsBuilder.IsConfigured)
             {
                 base.OnConfiguring(optionsBuilder);
-                optionsBuilder.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = RBTData");
+                optionsBuilder.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = DATA_RBT1");
             }   
 
         }
