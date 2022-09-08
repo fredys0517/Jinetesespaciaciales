@@ -15,7 +15,7 @@ namespace RBT.App.Persistencia
             if (!optionsBuilder.IsConfigured)
             {
                 base.OnConfiguring(optionsBuilder);
-                optionsBuilder.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = DATA_RBT1");
+                optionsBuilder.UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = RBTData");
             }   
 
         }
