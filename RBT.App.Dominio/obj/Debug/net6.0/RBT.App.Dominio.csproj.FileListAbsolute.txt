@@ -1,0 +1,12 @@
+C:\RBT\RBT.App\RBT.App.Dominio\bin\Debug\net6.0\RBT.App.Dominio.deps.json
+C:\RBT\RBT.App\RBT.App.Dominio\bin\Debug\net6.0\RBT.App.Dominio.dll
+C:\RBT\RBT.App\RBT.App.Dominio\bin\Debug\net6.0\RBT.App.Dominio.pdb
+C:\RBT\RBT.App\RBT.App.Dominio\obj\Debug\net6.0\RBT.App.Dominio.csproj.AssemblyReference.cache
+C:\RBT\RBT.App\RBT.App.Dominio\obj\Debug\net6.0\RBT.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\RBT\RBT.App\RBT.App.Dominio\obj\Debug\net6.0\RBT.App.Dominio.AssemblyInfoInputs.cache
+C:\RBT\RBT.App\RBT.App.Dominio\obj\Debug\net6.0\RBT.App.Dominio.AssemblyInfo.cs
+C:\RBT\RBT.App\RBT.App.Dominio\obj\Debug\net6.0\RBT.App.Dominio.csproj.CoreCompileInputs.cache
+C:\RBT\RBT.App\RBT.App.Dominio\obj\Debug\net6.0\RBT.App.Dominio.dll
+C:\RBT\RBT.App\RBT.App.Dominio\obj\Debug\net6.0\refint\RBT.App.Dominio.dll
+C:\RBT\RBT.App\RBT.App.Dominio\obj\Debug\net6.0\RBT.App.Dominio.pdb
+C:\RBT\RBT.App\RBT.App.Dominio\obj\Debug\net6.0\ref\RBT.App.Dominio.dll

@@ -1,0 +1,17 @@
+C:\RBT\RBT.App\RBT.App.Persistencia\bin\Debug\net6.0\RBT.App.Persistencia.deps.json
+C:\RBT\RBT.App\RBT.App.Persistencia\bin\Debug\net6.0\RBT.App.Persistencia.runtimeconfig.json
+C:\RBT\RBT.App\RBT.App.Persistencia\bin\Debug\net6.0\RBT.App.Persistencia.dll
+C:\RBT\RBT.App\RBT.App.Persistencia\bin\Debug\net6.0\RBT.App.Persistencia.pdb
+C:\RBT\RBT.App\RBT.App.Persistencia\bin\Debug\net6.0\RBT.App.Dominio.dll
+C:\RBT\RBT.App\RBT.App.Persistencia\bin\Debug\net6.0\RBT.App.Dominio.pdb
+C:\RBT\RBT.App\RBT.App.Persistencia\obj\Debug\net6.0\RBT.App.Persistencia.csproj.AssemblyReference.cache
+C:\RBT\RBT.App\RBT.App.Persistencia\obj\Debug\net6.0\RBT.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\RBT\RBT.App\RBT.App.Persistencia\obj\Debug\net6.0\RBT.App.Persistencia.AssemblyInfoInputs.cache
+C:\RBT\RBT.App\RBT.App.Persistencia\obj\Debug\net6.0\RBT.App.Persistencia.AssemblyInfo.cs
+C:\RBT\RBT.App\RBT.App.Persistencia\obj\Debug\net6.0\RBT.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\RBT\RBT.App\RBT.App.Persistencia\obj\Debug\net6.0\RBT.App.Persistencia.csproj.CopyComplete
+C:\RBT\RBT.App\RBT.App.Persistencia\obj\Debug\net6.0\RBT.App.Persistencia.dll
+C:\RBT\RBT.App\RBT.App.Persistencia\obj\Debug\net6.0\refint\RBT.App.Persistencia.dll
+C:\RBT\RBT.App\RBT.App.Persistencia\obj\Debug\net6.0\RBT.App.Persistencia.pdb
+C:\RBT\RBT.App\RBT.App.Persistencia\obj\Debug\net6.0\RBT.App.Persistencia.genruntimeconfig.cache
+C:\RBT\RBT.App\RBT.App.Persistencia\obj\Debug\net6.0\ref\RBT.App.Persistencia.dll
