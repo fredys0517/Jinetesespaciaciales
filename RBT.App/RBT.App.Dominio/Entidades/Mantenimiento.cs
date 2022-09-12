@@ -9,13 +9,15 @@ namespace RBT.App.Dominio
 
     {
         
-        public int IdMantenimiento { get; set; }
+        public int MantenimientoId { get; set; }
         public string NivelAceite {get;set;}
         public string NivelLiquidoFrenos {get;set;}
         public string NivelRefrigerante {get;set;}
         public string NivelLiquidoDireccion {get;set;}
         public string FechaMantenimiento {get;set;}
-        public Vehiculo FkIdVehiculo {get;set;}
+        
+        public int VehiculoId { get; set; } // Llave Foranea
+        public Vehiculo Vehiculo {get;set;} // Propiedad de Navegacion
 
     }
 }

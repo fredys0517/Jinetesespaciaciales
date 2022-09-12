@@ -8,8 +8,8 @@ namespace RBT.App.Dominio
     public class UsuarioApp:Persona
     {
         
-        public int IdUsuarioApp { get; set; }
-        public Persona FkIdPersona {get;set;}
+        public int UsuarioAppId { get; set; }
+        //public Persona Persona {get;set;}
        
 
     }

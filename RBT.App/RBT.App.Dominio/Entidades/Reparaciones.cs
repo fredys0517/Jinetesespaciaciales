@@ -8,10 +8,10 @@ namespace RBT.App.Dominio
     public class Reparaciones
     {
         
-        public int IdReparaciones { get; set; }
+        public int ReparacionesId { get; set; }
         public string FechaReparacion {get;set;}
         public string RepuestosCambiados {get;set;}
-        public Mantenimiento FkIdMantenimiento {get;set;}
+        public Mantenimiento Mantenimiento {get;set;} // llave foranea
        
 
     }

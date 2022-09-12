@@ -8,8 +8,8 @@ namespace RBT.App.Dominio
     public class JefeOperaciones:Persona
     {
         
-        public int IdJefeOperaciones { get; set; }
-        public Persona FkIdPersona {get;set;}
+        public int JefeOperacionesId { get; set; }
+        //public Persona FkIdPersona {get;set;}
       
 
     }
