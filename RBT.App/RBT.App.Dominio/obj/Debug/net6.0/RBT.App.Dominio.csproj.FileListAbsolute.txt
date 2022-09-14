@@ -10,3 +10,15 @@ C:\RBT\RBT.App\RBT.App.Dominio\obj\Debug\net6.0\RBT.App.Dominio.dll
 C:\RBT\RBT.App\RBT.App.Dominio\obj\Debug\net6.0\refint\RBT.App.Dominio.dll
 C:\RBT\RBT.App\RBT.App.Dominio\obj\Debug\net6.0\RBT.App.Dominio.pdb
 C:\RBT\RBT.App\RBT.App.Dominio\obj\Debug\net6.0\ref\RBT.App.Dominio.dll
+C:\Repositorios\RepMintic\Jinetesespaciaciales\rbt.app\RBT.App.Dominio\bin\Debug\net6.0\RBT.App.Dominio.deps.json
+C:\Repositorios\RepMintic\Jinetesespaciaciales\rbt.app\RBT.App.Dominio\bin\Debug\net6.0\RBT.App.Dominio.dll
+C:\Repositorios\RepMintic\Jinetesespaciaciales\rbt.app\RBT.App.Dominio\bin\Debug\net6.0\RBT.App.Dominio.pdb
+C:\Repositorios\RepMintic\Jinetesespaciaciales\rbt.app\RBT.App.Dominio\obj\Debug\net6.0\RBT.App.Dominio.csproj.AssemblyReference.cache
+C:\Repositorios\RepMintic\Jinetesespaciaciales\rbt.app\RBT.App.Dominio\obj\Debug\net6.0\RBT.App.Dominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositorios\RepMintic\Jinetesespaciaciales\rbt.app\RBT.App.Dominio\obj\Debug\net6.0\RBT.App.Dominio.AssemblyInfoInputs.cache
+C:\Repositorios\RepMintic\Jinetesespaciaciales\rbt.app\RBT.App.Dominio\obj\Debug\net6.0\RBT.App.Dominio.AssemblyInfo.cs
+C:\Repositorios\RepMintic\Jinetesespaciaciales\rbt.app\RBT.App.Dominio\obj\Debug\net6.0\RBT.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Repositorios\RepMintic\Jinetesespaciaciales\rbt.app\RBT.App.Dominio\obj\Debug\net6.0\RBT.App.Dominio.dll
+C:\Repositorios\RepMintic\Jinetesespaciaciales\rbt.app\RBT.App.Dominio\obj\Debug\net6.0\refint\RBT.App.Dominio.dll
+C:\Repositorios\RepMintic\Jinetesespaciaciales\rbt.app\RBT.App.Dominio\obj\Debug\net6.0\RBT.App.Dominio.pdb
+C:\Repositorios\RepMintic\Jinetesespaciaciales\rbt.app\RBT.App.Dominio\obj\Debug\net6.0\ref\RBT.App.Dominio.dll

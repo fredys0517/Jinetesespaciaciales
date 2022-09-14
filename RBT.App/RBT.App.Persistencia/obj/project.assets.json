@@ -2035,11 +2035,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\RBT\\RBT.App\\RBT.App.Persistencia\\RBT.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\rbt.app\\RBT.App.Persistencia\\RBT.App.Persistencia.csproj",
       "projectName": "RBT.App.Persistencia",
-      "projectPath": "C:\\RBT\\RBT.App\\RBT.App.Persistencia\\RBT.App.Persistencia.csproj",
+      "projectPath": "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\rbt.app\\RBT.App.Persistencia\\RBT.App.Persistencia.csproj",
       "packagesPath": "C:\\Users\\Jotace\\.nuget\\packages\\",
-      "outputPath": "C:\\RBT\\RBT.App\\RBT.App.Persistencia\\obj\\",
+      "outputPath": "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\rbt.app\\RBT.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jotace\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -2054,8 +2054,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\RBT\\RBT.App\\RBT.App.Dominio\\RBT.App.Dominio.csproj": {
-              "projectPath": "C:\\RBT\\RBT.App\\RBT.App.Dominio\\RBT.App.Dominio.csproj"
+            "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\rbt.app\\RBT.App.Dominio\\RBT.App.Dominio.csproj": {
+              "projectPath": "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\rbt.app\\RBT.App.Dominio\\RBT.App.Dominio.csproj"
             }
           }
         }

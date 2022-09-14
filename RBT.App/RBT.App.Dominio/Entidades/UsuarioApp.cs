@@ -5,12 +5,14 @@ using System.Threading.Tasks;
 
 namespace RBT.App.Dominio
 {
-    public class UsuarioApp:Persona
+    public class UsuarioApp
     {
         
-        public int UsuarioAppId { get; set; }
-        //public Persona Persona {get;set;}
-       
+        public int Id {get;set;}
+        public string? Nombres {get;set;}
+        public string? Apellidos {get;set;}
+        public string? Telefono {get;set;}
+        public string? FechaNacimiento {get;set;}       
 
     }
 }

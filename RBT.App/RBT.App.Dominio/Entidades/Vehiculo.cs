@@ -8,7 +8,7 @@ namespace RBT.App.Dominio
     public class Vehiculo
     {
         
-        public int VehiculoId { get; set; }
+        public int Id { get; set; }
         public string Placa {get;set;}
         public string TipoVehiculo {get;set;}
         public string Marca {get;set;}
@@ -19,15 +19,15 @@ namespace RBT.App.Dominio
 
         //______________
 
-        public ICollection<Mantenimiento> Mantenimientos { get; set; }
+        //public ICollection<Mantenimiento> Mantenimientos { get; set; }
         /* propiedad de navegacion */
 
         //______________
 
-        public int MecanicoId { get; set; } // Llave Foranea
+        //public int MecanicoId { get; set; } // Llave Foranea
         public Mecanico Mecanico {get;set;} // Propiedad de Navegacion
 
-        public int PropietarioId { get; set; } // Llave Foranea
+        //public int PropietarioId { get; set; } // Llave Foranea
         public Propietario Propietario {get;set;} // Propiedad de Navegacion
 
     }

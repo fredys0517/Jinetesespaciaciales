@@ -26,11 +26,11 @@ namespace RBT.App.Persistencia
         
         void IRepositorioMecanico.EliminarMecanico(int idMecanico)
         {
-            var mecanicoEcontrado= _appContext.Mecanicos.FirstOrDefault(m =>m.Id==idMecanico);
+            var mecanicoEncontrado = _appContext.Mecanicos.FirstOrDefault(m =>m.Id==idMecanico);
             
-            if (mecanicoEncontrado=null)
+            if (mecanicoEncontrado==null)
                 return;
-            _appContext.Mecanicos.Remove(mecanicoEcontrado);
+            _appContext.Mecanicos.Remove(mecanicoEncontrado);
             _appContext.SaveChanges();
                 
         }
@@ -47,24 +47,24 @@ namespace RBT.App.Persistencia
         }
 
         Mecanico IRepositorioMecanico.ActualizarMecanico(Mecanico mecanico)
-        {
-            var mecanicoEcontrado= _appContext.Mecanicos.FirstOrDefault(m =>m.Id==Mecanico.Id); // No estoy seguro de que sea "Mecanico.Id"
+        {// el simbolo "=>" quiere decir donde. La letra "m" hace referencia a la tabla mecanicos.
+            var mecanicoEncontrado= _appContext.Mecanicos.FirstOrDefault(m =>m.Id==mecanico.Id); // No estoy seguro de que sea "Mecanico.Id"
 
-            if(mecanicoEcontrado!=null)
+            if(mecanicoEncontrado!=null)
             {
-                mecanicoEcontrado.Nombres=mecanico.Nombres;
-                mecanicoEcontrado.Apellidos=mecanico.Apellidos;
-                mecanicoEcontrado.Telefono=mecanico.Telefono;
-                mecanicoEcontrado.FechaNacimiento=mecanico.FechaNacimiento;
+                mecanicoEncontrado.Nombres=mecanico.Nombres;
+                mecanicoEncontrado.Apellidos=mecanico.Apellidos;
+                mecanicoEncontrado.Telefono=mecanico.Telefono;
+                mecanicoEncontrado.FechaNacimiento=mecanico.FechaNacimiento;
 
-                mecanicoEcontrado.Direccion=mecanico.Direccion;
-                mecanicoEcontrado.NivelEstudios=mecanico.NivelEstudios;
+                mecanicoEncontrado.Direccion=mecanico.Direccion;
+                mecanicoEncontrado.NivelEstudios=mecanico.NivelEstudios;
                 
                 _appContext.SaveChanges();
                 
             }
 
-            return mecanicoEcontrado;
+            return mecanicoEncontrado;
 
         }
 

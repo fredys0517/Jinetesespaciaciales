@@ -9,7 +9,7 @@ namespace RBT.App.Dominio
 
     {
         
-        public int SoatId { get; set; }
+        public int Id { get; set; }
         public string FechaCompra {get;set;}
         public string FechaVencimiento {get;set;}
         public Vehiculo Vehiculo {get;set;} // llave Foranea

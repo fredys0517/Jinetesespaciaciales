@@ -5,12 +5,14 @@ using System.Threading.Tasks;
 
 namespace RBT.App.Dominio
 {
-    public class JefeOperaciones:Persona
+    public class JefeOperaciones
     {
         
-        public int JefeOperacionesId { get; set; }
-        //public Persona FkIdPersona {get;set;}
-      
+        public int Id {get;set;}
+        public string? Nombres {get;set;}
+        public string? Apellidos {get;set;}
+        public string? Telefono {get;set;}
+        public string? FechaNacimiento {get;set;}      
 
     }
 }

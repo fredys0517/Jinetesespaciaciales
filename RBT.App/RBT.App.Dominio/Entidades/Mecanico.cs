@@ -5,15 +5,20 @@ using System.Threading.Tasks;
 
 namespace RBT.App.Dominio
 {
-    public class Mecanico:Persona
+    public class Mecanico
     {
-        public int MecanicoId {get;set;}
-        //public Persona FkIdPersona { get; set; }
-        public string Direccion {get;set;}
-        public string NivelEstudios {get;set;}
+        //[key] // buscar el codigopara poder darle nombre a la llave
+        public int Id {get;set;}
+        public string? Nombres {get;set;}
+        public string? Apellidos {get;set;}
+        public string? Telefono {get;set;}
+        public string? FechaNacimiento {get;set;}
+        
+        public string? Direccion {get;set;}
+        public string? NivelEstudios {get;set;}
 
         // __________________________________________________
-        public ICollection<Vehiculo> Vehiculos { get; set; }// Uno a varios con vehiculo
+        //public ICollection<Vehiculo> Vehiculos { get; set; }// Uno a varios con vehiculo
         
 
     }
