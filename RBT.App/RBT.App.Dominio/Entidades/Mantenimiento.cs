@@ -18,7 +18,7 @@ namespace RBT.App.Dominio
 
         
         // public int VehiculoId { get; set; } // Llave Foranea
-        public Vehiculo Vehiculo {get;set;} // Propiedad de Navegacion
+        public Vehiculo vehiculo {get;set;} // Propiedad de Navegacion
 
     }
 }
