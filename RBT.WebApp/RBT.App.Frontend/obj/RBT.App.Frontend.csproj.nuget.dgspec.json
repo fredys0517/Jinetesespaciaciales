@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\rbt.webapp\\RBT.App.Frontend\\RBT.App.Frontend.csproj": {}
+    "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\rbt.webapp\\rbt.app.frontend\\RBT.App.Frontend.csproj": {}
   },
   "projects": {
-    "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\rbt.webapp\\RBT.App.Frontend\\RBT.App.Frontend.csproj": {
+    "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\rbt.webapp\\rbt.app.frontend\\RBT.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\rbt.webapp\\RBT.App.Frontend\\RBT.App.Frontend.csproj",
+        "projectUniqueName": "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\rbt.webapp\\rbt.app.frontend\\RBT.App.Frontend.csproj",
         "projectName": "RBT.App.Frontend",
-        "projectPath": "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\rbt.webapp\\RBT.App.Frontend\\RBT.App.Frontend.csproj",
+        "projectPath": "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\rbt.webapp\\rbt.app.frontend\\RBT.App.Frontend.csproj",
         "packagesPath": "C:\\Users\\Jotace\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\rbt.webapp\\RBT.App.Frontend\\obj\\",
+        "outputPath": "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\rbt.webapp\\rbt.app.frontend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jotace\\AppData\\Roaming\\NuGet\\NuGet.Config"
