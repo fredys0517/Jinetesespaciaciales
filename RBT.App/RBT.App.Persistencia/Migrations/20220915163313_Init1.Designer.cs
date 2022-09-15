@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using RBT.App.Persistencia;
 
@@ -10,9 +11,10 @@ using RBT.App.Persistencia;
 namespace RBT.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    partial class AppContextModelSnapshot : ModelSnapshot
+    [Migration("20220915163313_Init1")]
+    partial class Init1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -152,9 +154,11 @@ namespace RBT.App.Persistencia.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CiudadResidencia")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Correo")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FechaNacimiento")
@@ -187,12 +191,7 @@ namespace RBT.App.Persistencia.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("mantenimientoId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("mantenimientoId");
 
                     b.ToTable("Reparaciones");
                 });
@@ -284,17 +283,7 @@ namespace RBT.App.Persistencia.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("mecanicoId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("propietarioId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("mecanicoId");
-
-                    b.HasIndex("propietarioId");
 
                     b.ToTable("Vehiculos");
                 });
@@ -310,17 +299,6 @@ namespace RBT.App.Persistencia.Migrations
                     b.Navigation("vehiculo");
                 });
 
-            modelBuilder.Entity("RBT.App.Dominio.Reparacion", b =>
-                {
-                    b.HasOne("RBT.App.Dominio.Mantenimiento", "mantenimiento")
-                        .WithMany()
-                        .HasForeignKey("mantenimientoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("mantenimiento");
-                });
-
             modelBuilder.Entity("RBT.App.Dominio.Soat", b =>
                 {
                     b.HasOne("RBT.App.Dominio.Vehiculo", "vehiculo")
@@ -330,25 +308,6 @@ namespace RBT.App.Persistencia.Migrations
                         .IsRequired();
 
                     b.Navigation("vehiculo");
-                });
-
-            modelBuilder.Entity("RBT.App.Dominio.Vehiculo", b =>
-                {
-                    b.HasOne("RBT.App.Dominio.Mecanico", "mecanico")
-                        .WithMany()
-                        .HasForeignKey("mecanicoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("RBT.App.Dominio.Propietario", "propietario")
-                        .WithMany()
-                        .HasForeignKey("propietarioId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("mecanico");
-
-                    b.Navigation("propietario");
                 });
 #pragma warning restore 612, 618
         }

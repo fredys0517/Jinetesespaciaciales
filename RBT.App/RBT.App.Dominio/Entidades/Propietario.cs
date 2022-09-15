@@ -13,8 +13,8 @@ namespace RBT.App.Dominio
         public string? Telefono {get;set;}
         public string? FechaNacimiento {get;set;}
         
-        public string CiudadResidencia {get;set;}
-        public string Correo {get;set;}
+        public string? CiudadResidencia {get;set;}
+        public string? Correo {get;set;}
 
         // __________________________________________________
         //public ICollection<Vehiculo> Vehiculos { get; set; } //Uno a varios hacia vehiculo

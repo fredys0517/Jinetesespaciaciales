@@ -17,7 +17,7 @@ namespace RBT.App.Dominio
         public string FechaMantenimiento {get;set;}
 
         
-        // public int VehiculoId { get; set; } // Llave Foranea
+        
         public Vehiculo vehiculo {get;set;} // Propiedad de Navegacion
 
     }

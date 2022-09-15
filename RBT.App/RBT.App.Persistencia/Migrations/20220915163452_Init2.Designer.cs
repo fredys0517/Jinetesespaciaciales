@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using RBT.App.Persistencia;
 
@@ -10,9 +11,10 @@ using RBT.App.Persistencia;
 namespace RBT.App.Persistencia.Migrations
 {
     [DbContext(typeof(AppContext))]
-    partial class AppContextModelSnapshot : ModelSnapshot
+    [Migration("20220915163452_Init2")]
+    partial class Init2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -152,9 +154,11 @@ namespace RBT.App.Persistencia.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("CiudadResidencia")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Correo")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("FechaNacimiento")
@@ -187,12 +191,7 @@ namespace RBT.App.Persistencia.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("mantenimientoId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("mantenimientoId");
 
                     b.ToTable("Reparaciones");
                 });
@@ -308,17 +307,6 @@ namespace RBT.App.Persistencia.Migrations
                         .IsRequired();
 
                     b.Navigation("vehiculo");
-                });
-
-            modelBuilder.Entity("RBT.App.Dominio.Reparacion", b =>
-                {
-                    b.HasOne("RBT.App.Dominio.Mantenimiento", "mantenimiento")
-                        .WithMany()
-                        .HasForeignKey("mantenimientoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("mantenimiento");
                 });
 
             modelBuilder.Entity("RBT.App.Dominio.Soat", b =>
