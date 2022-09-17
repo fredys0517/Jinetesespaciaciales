@@ -13,10 +13,6 @@ namespace RBT.App.Persistencia
         Auxiliar ActualizarAuxiliar(Auxiliar auxiliar);
         void EliminarAuxiliar(int idAuxiliar); 
         // El profe en el video deja el ID en letras minusculas
-        Auxiliar ObtenerMecanico(int idAuxiliar);    
-
-        //Auxiliar AgregarAuxiliar(Mecanico MecAgregar);
-
-        //Mecanico ActualizarMecanico(Mecanico MecActualizar);
+        Auxiliar ObtenerAuxiliar(int idAuxiliar);    
     }
 }

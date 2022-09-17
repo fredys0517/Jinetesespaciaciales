@@ -14,9 +14,5 @@ namespace RBT.App.Persistencia
         void EliminarMecanico(int idMecanico); 
         // El profe en el video deja el ID en letras minusculas
         Mecanico ObtenerMecanico(int idMecanico);    
-
-        //Mecanico AgregarMecanico(Mecanico MecAgregar);
-
-        //Mecanico ActualizarMecanico(Mecanico MecActualizar);
     }
 }
