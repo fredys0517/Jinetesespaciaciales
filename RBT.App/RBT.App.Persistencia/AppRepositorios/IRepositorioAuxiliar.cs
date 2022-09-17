@@ -8,7 +8,7 @@ namespace RBT.App.Persistencia
 {
     public interface IRepositorioAuxiliar
     {
-        IEnumerable<Auxiliar> ListarMecanicoAll();
+        IEnumerable<Auxiliar> ListarAuxiliarAll();
         AuxiliarAgregarAuxiliar(Auxiliar auxiliar);
         Auxiliar ActualizarAuxiliar(Auxiliar auxiliar);
         void EliminarAuxiliar(int idAuxiliar); 
