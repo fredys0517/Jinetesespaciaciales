@@ -68,23 +68,5 @@ namespace RBT.App.Persistencia
 
         }
 
-
-        /*
-          private readonly AppContext MecContext;
-        public RepositorioMecanico (AppContext Mec)
-        {
-            MecContext=Mec;
-        }
-        IEnumerable<Mecanico> ListarMecanicoAll()
-        {
-            return MecContext.Mecanico;
-        }
-
-        Mecanico SekeccionarMecanico(int IdMecanico)
-        {
-
-            return MecContext.Mecanico.FirstOrDefault
-            (m => m.IdMecanico==IdMecanico);
-        } */
     }
 }
