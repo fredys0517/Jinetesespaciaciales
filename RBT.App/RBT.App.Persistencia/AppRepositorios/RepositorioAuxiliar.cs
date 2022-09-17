@@ -6,64 +6,62 @@ using RBT.App.Dominio;
 
 namespace RBT.App.Persistencia
 {
-    public class RepositorioAuxiliar:IRepositorioAuxiliar
+    public class RepositorioMantenimiento:IRepositorioMantenimiento
     {
         
         
         private readonly AppContext _appContext; //Por que "app" en letras minusculas?
 
-        public RepositorioAuxiliar(AppContext appContext)
+        public RepositorioMantenimiento(AppContext appContext)
         {
             _appContext=appContext;
         }
 
-        Auxiliar IRepositorioAuxiliar.AgregarAuxiliar(Auxiliar auxiliar)
+        Mantenimiento IRepositorioMantenimiento.AgregarMantenimiento(Mantenimiento mantenimiento)
         {
-            var auxiliarAgregado= _appContext.Auxiliares.Add(auxiliar);
+            var mantenimientoAgregado= _appContext.Mantenimientoes.Add(mantenimiento);
             _appContext.SaveChanges();
-            return auxiliarAgregado.Entity;
+            return mantenimientoAgregado.Entity;
         }
         
-        void IRepositorioAuxiliar.EliminarAuxiliar(int idAuxiliar)
+        void IRepositorioMantenimiento.EliminarMantenimiento(int idMantenimiento)
         {
-            var auxiliarEncontrado = _appContext.Auxiliares.FirstOrDefault(m =>m.Id==idAuxiliar);
+            var mantenimientoEncontrado = _appContext.Mantenimientos.FirstOrDefault(m =>m.Id==idMantenimiento);
             
-            if (auxiliarEncontrado==null)
+            if (mantenimientoEncontrado==null)
                 return;
-            _appContext.Auxiliares.Remove(auxiliarEncontrado);
+            _appContext.Mantenimientos.Remove(mantenimientoEncontrado);
             _appContext.SaveChanges();
                 
         }
 
-        IEnumerable<Auxiliar> IRepositorioAuxiliar.ListarAuxiliarAll()
+        IEnumerable<Mantenimiento> IRepositorioMantenimiento.ListarMantenimientoAll()
         {
-            return _appContext.Auxiliares;
+            return _appContext.Mantenimientos;
         }
 
-        Auxiliar IRepositorioAuxiliar.ObtenerAuxiliar(int idAuxiliar)
+        Mantenimiento IRepositorioMantenimiento.ObtenerMantenimiento(int idMantenimiento)
         {
-            return _appContext.Auxiliares.FirstOrDefault(m =>m.Id==idAuxiliar);
+            return _appContext.Mantenimientos.FirstOrDefault(m =>m.Id==idMantenimiento);
 
         }
 
-        Auxiliar IRepositorioAuxiliar.ActualizarAuxiliar(Auxiliar auxiliar)
+        Mantenimiento IRepositorioMantenimiento.ActualizarMantenimiento(Mantenimiento mantenimiento)
         {// el simbolo "=>" quiere decir donde. La letra "m" hace referencia a la tabla mecanicos.
-            var auxiliarEncontrado= _appContext.Auxiliares.FirstOrDefault(m =>m.Id==auxiliar.Id); // No estoy seguro de que sea "Mecanico.Id"
+            var mantenimientoEncontrado= _appContext.Mantenimientos.FirstOrDefault(m =>m.Id==mantenimiento.Id); // No estoy seguro de que sea "Mecanico.Id"
 
-            if(auxiliarEncontrado!=null)
+            if(mantenimientoEncontrado!=null)
             {
-                auxiliarEncontrado.Nombres=auxiliar.Nombres;
-                auxiliarEncontrado.Apellidos=auxiliar.Apellidos;
-                auxiliarEncontrado.Telefono=auxiliar.Telefono;
-                auxiliarEncontrado.FechaNacimiento=auxiliar.FechaNacimiento;
-
-            
-                
+                mantenimientoEncontrado.NivelAceite=mantenimiento.NivelAceite;
+                mantenimientoEncontrado.NivelLiquidoFrenos=mantenimiento.NivelLiquidoFrenos;
+                mantenimientoEncontrado.NivelRefrigerante=mantenimiento.NivelRefrigerante;
+                mantenimientoEncontrado.NivelLiquidoDireccion=mantenimiento.NivelLiquidoDireccion;
+                mantenimientoEncontrado.FechaMantenimiento=mantenimiento.FechaMantenimiento;  
                 _appContext.SaveChanges();
                 
             }
 
-            return auxiliarEncontrado;
+            return mantenimientoEncontrado;
 
         }
 

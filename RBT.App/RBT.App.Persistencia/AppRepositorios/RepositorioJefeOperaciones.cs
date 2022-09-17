@@ -19,71 +19,49 @@ namespace RBT.App.Persistencia
 
         JefeOperaciones IRepositorioJefeOperaciones.AgregarJefeOperaciones(JefeOperaciones jefeOperaciones)
         {
-            var jefeOperacionesAgregado= _appContext.JefeOperaciones.Add(jefeOperaciones);
+            var jefeOperacionesAgregado= _appContext.JefeOperacioness.Add(jefeOperaciones);
             _appContext.SaveChanges();
             return jefeOperacionesAgregado.Entity;
         }
         
         void IRepositorioJefeOperaciones.EliminarJefeOperaciones(int idJefeOperaciones)
         {
-            var jefeOperacionesEncontrado = _appContext.JefesOperaciones.FirstOrDefault(m =>m.Id==idJefeOperaciones);
+            var jefeOperacionesEncontrado = _appContext.JefeOperacioness.FirstOrDefault(m =>m.Id==idJefeOperaciones);
             
             if (jefeOperacionesEncontrado==null)
                 return;
-            _appContext.JefesOperaciones.Remove(JefeOperacionesEncontrado);
+            _appContext.JefeOperacioness.Remove(jefeOperacionesEncontrado);
             _appContext.SaveChanges();
                 
         }
 
-        IEnumerable<jefeOperaciones> IRepositorioJefeOperaciones.ListarJefeOperacionesAll()
+        IEnumerable<JefeOperaciones> IRepositorioJefeOperaciones.ListarJefeOperacionesAll()
         {
-            return _appContext.JefesOperaciones;
+            return _appContext.JefeOperacioness;
         }
 
-        jefeOperaciones IRepositorioJefeOperaciones.ObtenerJefeOperaciones(int idJefeOperaciones)(int idAuxiliar)
+        JefeOperaciones IRepositorioJefeOperaciones.ObtenerJefeOperaciones(int idJefeOperaciones)
         {
-            return _appContext.JefesOperacioness.FirstOrDefault(m =>m.Id==idJefeOperaciones);
+            return _appContext.JefeOperacioness.FirstOrDefault(m =>m.Id==idJefeOperaciones);
 
         }
 
-        jefeOperaciones IRepositorioJefeOperaciones.ActualizarJefeOperaciones(JefeOperaciones jefeOperaciones)
+        JefeOperaciones IRepositorioJefeOperaciones.ActualizarJefeOperaciones(JefeOperaciones jefeOperaciones)
         {// el simbolo "=>" quiere decir donde. La letra "m" hace referencia a la tabla mecanicos.
-            var jefeOperacionesEncontrado= _appContext.JefesOperaciones.FirstOrDefault(m =>m.Id==jefeOperaciones.Id); // No estoy seguro de que sea "Mecanico.Id"
+            var jefeOperacionesEncontrado= _appContext.JefesOperaciones.FirstOrDefault(m =>m.Id==jefeOperaciones.Id); // No estoy seguro de que sea "JefeOperaciones.Id"
 
-            if(JefeOperacionesEncontrado!=null)
+            if(jefeOperacionesEncontrado!=null)
             {
-                JefeOperacionesEncontrado.Nombres=jefeOperaciones.Nombres;
-                JefeOperacionesEncontradoo.Apellidos=jefeOperaciones.Apellidos;
-                JefeOperacionesEncontrado.Telefono=jefeOperaciones.Telefono;
-                JefeOperacionesEncontrado.FechaNacimiento=jefeOperaciones.FechaNacimiento;
-
-            
-                
+                jefeOperacionesEncontrado.Nombres=jefeOperaciones.Nombres;
+                jefeOperacionesEncontrado.Apellidos=jefeOperaciones.Apellidos;
+                jefeOperacionesEncontrado.Telefono=jefeOperaciones.Telefono;
+                jefeOperacionesEncontrado.FechaNacimiento=jefeOperaciones.FechaNacimiento;
                 _appContext.SaveChanges();
                 
             }
 
             return jefeOperacionesEncontrado;
-
         }
-
-
-        /*
-          private readonly AppContext MecContext;
-        public RepositorioMecanico (AppContext Mec)
-        {
-            MecContext=Mec;
-        }
-        IEnumerable<Mecanico> ListarMecanicoAll()
-        {
-            return MecContext.Mecanico;
-        }
-
-        Mecanico SekeccionarMecanico(int IdMecanico)
-        {
-
-            return MecContext.Mecanico.FirstOrDefault
-            (m => m.IdMecanico==IdMecanico);
-        } */
+    
     }
-}
+}    
