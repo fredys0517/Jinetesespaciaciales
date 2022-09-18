@@ -16,8 +16,6 @@ namespace RBT.App.Dominio
         public string NivelLiquidoDireccion {get;set;}
         public string FechaMantenimiento {get;set;}
 
-        
-        
         public Vehiculo vehiculo {get;set;} // Propiedad de Navegacion
 
     }

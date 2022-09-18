@@ -54,7 +54,10 @@ namespace RBT.App.Persistencia
             {
                 soatEncontrado.FechaCompra=soat.FechaCompra;
                 soatEncontrado.FechaVencimiento=soat.FechaVencimiento;
-                soatEncontrado.vehiculo=soat.vehiculo;
+
+                //Esta es una llave foranea, ¿se puede modificar?
+                //soatEncontrado.vehiculo=soat.vehiculo;
+
                 _appContext.SaveChanges();
                 
             }

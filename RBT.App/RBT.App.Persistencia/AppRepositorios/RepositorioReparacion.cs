@@ -54,7 +54,9 @@ namespace RBT.App.Persistencia
             {
                 reparacionEncontrado.FechaReparacion=reparacion.FechaReparacion;
                 reparacionEncontrado.RepuestosCambiados=reparacion.RepuestosCambiados;
-                reparacionEncontrado.mantenimiento=reparacion.mantenimiento;
+                
+                //Esta es una llave foranea, ¿se puede modificar?
+                //reparacionEncontrado.mantenimiento=reparacion.mantenimiento;
                 
                 _appContext.SaveChanges();
                 
