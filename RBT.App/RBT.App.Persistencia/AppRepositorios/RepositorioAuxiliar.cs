@@ -6,66 +6,67 @@ using RBT.App.Dominio;
 
 namespace RBT.App.Persistencia
 {
-    public class RepositorioMantenimiento:IRepositorioMantenimiento
+    public class RepositorioAuxiliar:IRepositorioAuxiliar
     {
         
         
         private readonly AppContext _appContext; //Por que "app" en letras minusculas?
 
-        public RepositorioMantenimiento(AppContext appContext)
+        public RepositorioAuxiliar(AppContext appContext)
         {
             _appContext=appContext;
         }
 
-        Mantenimiento IRepositorioMantenimiento.AgregarMantenimiento(Mantenimiento mantenimiento)
+        Auxiliar IRepositorioAuxiliar.AgregarAuxiliar(Auxiliar auxiliar)
         {
+<<<<<<< HEAD
             var mantenimientoAgregado= _appContext.Mantenimientos.Add(mantenimiento);
+=======
+            var auxiliarAgregado= _appContext.Auxiliares.Add(auxiliar);
+>>>>>>> Monica
             _appContext.SaveChanges();
-            return mantenimientoAgregado.Entity;
+            return auxiliarAgregado.Entity;
         }
         
-        void IRepositorioMantenimiento.EliminarMantenimiento(int idMantenimiento)
+        void IRepositorioAuxiliar.EliminarAuxiliar(int idAuxiliar)
         {
-            var mantenimientoEncontrado = _appContext.Mantenimientos.FirstOrDefault(m =>m.Id==idMantenimiento);
+            var auxiliarEncontrado = _appContext.Auxiliares.FirstOrDefault(m =>m.Id==idAuxiliar);
             
-            if (mantenimientoEncontrado==null)
+            if (auxiliarEncontrado==null)
                 return;
-            _appContext.Mantenimientos.Remove(mantenimientoEncontrado);
+            _appContext.Auxiliares.Remove(auxiliarEncontrado);
             _appContext.SaveChanges();
                 
         }
 
-        IEnumerable<Mantenimiento> IRepositorioMantenimiento.ListarMantenimientoAll()
+        IEnumerable<Auxiliar> IRepositorioAuxiliar.ListarAuxiliarAll()
         {
-            return _appContext.Mantenimientos;
+            return _appContext.Auxiliares;
         }
 
-        Mantenimiento IRepositorioMantenimiento.ObtenerMantenimiento(int idMantenimiento)
+        Auxiliar IRepositorioAuxiliar.ObtenerAuxiliar(int idAuxiliar)
         {
-            return _appContext.Mantenimientos.FirstOrDefault(m =>m.Id==idMantenimiento);
+            return _appContext.Auxiliares.FirstOrDefault(m =>m.Id==idAuxiliar);
 
         }
 
-        Mantenimiento IRepositorioMantenimiento.ActualizarMantenimiento(Mantenimiento mantenimiento)
-        {// el simbolo "=>" quiere decir donde. La letra "m" hace referencia a la tabla mecanicos.
-            var mantenimientoEncontrado= _appContext.Mantenimientos.FirstOrDefault(m =>m.Id==mantenimiento.Id); // No estoy seguro de que sea "Mecanico.Id"
+        Auxiliar IRepositorioAuxiliar.ActualizarAuxiliar(Auxiliar auxiliar)
+        {// el simbolo "=>" quiere decir donde. La letra "m" hace referencia a la tabla auxiliares.
+            var auxiliarEncontrado= _appContext.Auxiliares.FirstOrDefault(m =>m.Id==auxiliar.Id); // No estoy seguro de que sea "Auxiliar.Id"
 
-            if(mantenimientoEncontrado!=null)
+            if(auxiliarEncontrado!=null)
             {
-                mantenimientoEncontrado.NivelAceite=mantenimiento.NivelAceite;
-                mantenimientoEncontrado.NivelLiquidoFrenos=mantenimiento.NivelLiquidoFrenos;
-                mantenimientoEncontrado.NivelRefrigerante=mantenimiento.NivelRefrigerante;
-                mantenimientoEncontrado.NivelLiquidoDireccion=mantenimiento.NivelLiquidoDireccion;
-                mantenimientoEncontrado.FechaMantenimiento=mantenimiento.FechaMantenimiento;  
+                auxiliarEncontrado.Nombres=auxiliar.Nombres;
+                auxiliarEncontrado.Apellidos=auxiliar.Apellidos;
+                auxiliarEncontrado.Telefono=auxiliar.Telefono;
+                auxiliarEncontrado.FechaNacimiento=auxiliar.FechaNacimiento;                
                 _appContext.SaveChanges();
                 
             }
 
-            return mantenimientoEncontrado;
+            return auxiliarEncontrado;
 
         }
 
-//monica es 
-    
     }
 }

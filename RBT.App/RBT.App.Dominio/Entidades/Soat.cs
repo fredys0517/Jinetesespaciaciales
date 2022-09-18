@@ -10,8 +10,8 @@ namespace RBT.App.Dominio
     {
         
         public int Id { get; set; }
-        public string FechaCompra {get;set;}
-        public string FechaVencimiento {get;set;}
+        public string? FechaCompra {get;set;}
+        public string? FechaVencimiento {get;set;}
         public Vehiculo vehiculo {get;set;} // llave Foranea
         
 
