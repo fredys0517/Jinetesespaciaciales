@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\rbt.app\\RBT.App.Dominio\\RBT.App.Dominio.csproj": {}
+    "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\RBT.App\\RBT.App.Dominio\\RBT.App.Dominio.csproj": {}
   },
   "projects": {
-    "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\rbt.app\\RBT.App.Dominio\\RBT.App.Dominio.csproj": {
+    "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\RBT.App\\RBT.App.Dominio\\RBT.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\rbt.app\\RBT.App.Dominio\\RBT.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\RBT.App\\RBT.App.Dominio\\RBT.App.Dominio.csproj",
         "projectName": "RBT.App.Dominio",
-        "projectPath": "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\rbt.app\\RBT.App.Dominio\\RBT.App.Dominio.csproj",
+        "projectPath": "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\RBT.App\\RBT.App.Dominio\\RBT.App.Dominio.csproj",
         "packagesPath": "C:\\Users\\Jotace\\.nuget\\packages\\",
-        "outputPath": "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\rbt.app\\RBT.App.Dominio\\obj\\",
+        "outputPath": "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\RBT.App\\RBT.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jotace\\AppData\\Roaming\\NuGet\\NuGet.Config"

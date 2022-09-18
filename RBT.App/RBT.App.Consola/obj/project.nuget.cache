@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2SSOQeUjRWbV5Idpwi7glSqZ+ekdHFFrtLENfbbNexDff7TRxlgOJCDACJBwBoc9hph94fZ2saVrPeGaAChNdQ==",
+  "dgSpecHash": "AgNErCwTOMkwlnejppCWkud8SjO3eJnEHxbQvpI80I6guGqjQnMCtoKA3FKCu89KGsXqJikyGuA6q1PZZ7DFPA==",
   "success": true,
-  "projectFilePath": "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\rbt.app\\RBT.App.Consola\\RBT.App.Consola.csproj",
+  "projectFilePath": "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\RBT.App\\RBT.App.Consola\\RBT.App.Consola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jotace\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Jotace\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

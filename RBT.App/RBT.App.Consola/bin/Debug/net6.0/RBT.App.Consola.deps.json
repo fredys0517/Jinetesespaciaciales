@@ -9,6 +9,7 @@
       "RBT.App.Consola/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "6.0.8",
+          "RBT.App.Dominio": "1.0.0",
           "RBT.App.Persistencia": "1.0.0"
         },
         "runtime": {

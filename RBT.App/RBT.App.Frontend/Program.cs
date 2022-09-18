@@ -23,3 +23,5 @@ app.UseAuthorization();
 app.MapRazorPages();
 
 app.Run();
+
+// Todo lo de arriba se creo automaticamente al crear la plantilla 
