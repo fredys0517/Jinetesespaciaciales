@@ -6,13 +6,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 
-namespace RBT.App.Frontend.Pages.AuxiliarPage
+namespace RBT.App.Frontend.Pages.VehiculoPage
 {
-    public class AuxiliarPage : PageModel
+    public class Vehiculo : PageModel
     {
-        private readonly ILogger<AuxiliarPage> _logger;
+        private readonly ILogger<Vehiculo> _logger;
 
-        public AuxiliarPage(ILogger<AuxiliarPage> logger)
+        public Vehiculo(ILogger<Vehiculo> logger)
         {
             _logger = logger;
         }
