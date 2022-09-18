@@ -1,5 +1,6 @@
 ﻿using System;
 using RBT.App.Dominio;
+using RBT.App.Persistencia;
 
 namespace RBT.App.Dominio
 {

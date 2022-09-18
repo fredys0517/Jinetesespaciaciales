@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\RBT.App.Persistencia\RBT.App.Persistencia.csproj" />
+    <ProjectReference Include="..\RBT.App.Dominio\RBT.App.Dominio.csproj" />
   </ItemGroup>
 
 </Project>
