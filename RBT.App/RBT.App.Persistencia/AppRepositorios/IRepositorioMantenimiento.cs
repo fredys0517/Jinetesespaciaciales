@@ -9,7 +9,7 @@ namespace RBT.App.Persistencia
     public interface IRepositorioMantenimiento
     {
         IEnumerable<Mantenimiento> ListarMantenimientoAll();
-        MantenimientoAgregarMantenimiento(Mantenimiento mantenimiento);
+        Mantenimiento AgregarMantenimiento(Mantenimiento mantenimiento);
         Mantenimiento ActualizarMantenimiento(Mantenimiento mantenimiento);
         void EliminarMantenimiento(int idMantenimiento); 
         // El profe en el video deja el ID en letras minusculas
