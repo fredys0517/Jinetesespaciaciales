@@ -10,11 +10,11 @@ namespace RBT.App.Dominio
     {
         
         public int Id { get; set; }
-        public string NivelAceite {get;set;}
-        public string NivelLiquidoFrenos {get;set;}
-        public string NivelRefrigerante {get;set;}
-        public string NivelLiquidoDireccion {get;set;}
-        public string FechaMantenimiento {get;set;}
+        public string? NivelAceite {get;set;}
+        public string? NivelLiquidoFrenos {get;set;}
+        public string? NivelRefrigerante {get;set;}
+        public string? NivelLiquidoDireccion {get;set;}
+        public string? FechaMantenimiento {get;set;}
 
         public Vehiculo vehiculo {get;set;} // Propiedad de Navegacion
 

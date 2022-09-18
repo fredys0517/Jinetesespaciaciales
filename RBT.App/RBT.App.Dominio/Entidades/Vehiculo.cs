@@ -9,13 +9,13 @@ namespace RBT.App.Dominio
     {
         
         public int Id { get; set; }
-        public string Placa {get;set;}
-        public string TipoVehiculo {get;set;}
-        public string Marca {get;set;}
-        public string Pasajero {get;set;}
-        public string Cilindraje {get;set;}
-        public string PaisOrigen {get;set;}
-        public string CaracteristicasExtra {get;set;}
+        public string? Placa {get;set;}
+        public string? TipoVehiculo {get;set;}
+        public string? Marca {get;set;}
+        public string? Pasajero {get;set;}
+        public string? Cilindraje {get;set;}
+        public string? PaisOrigen {get;set;}
+        public string? CaracteristicasExtra {get;set;}
 
         //______________
 
