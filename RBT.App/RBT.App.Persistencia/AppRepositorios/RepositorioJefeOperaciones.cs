@@ -19,30 +19,30 @@ namespace RBT.App.Persistencia
 
         JefeOperaciones IRepositorioJefeOperaciones.AgregarJefeOperaciones(JefeOperaciones jefeOperaciones)
         {
-            var jefeOperacionesAgregado= _appContext.JefeOperacioness.Add(jefeOperaciones);
+            var jefeOperacionesAgregado= _appContext.JefesOperaciones.Add(jefeOperaciones);
             _appContext.SaveChanges();
             return jefeOperacionesAgregado.Entity;
         }
         
         void IRepositorioJefeOperaciones.EliminarJefeOperaciones(int idJefeOperaciones)
         {
-            var jefeOperacionesEncontrado = _appContext.JefeOperacioness.FirstOrDefault(m =>m.Id==idJefeOperaciones);
+            var jefeOperacionesEncontrado = _appContext.JefesOperaciones.FirstOrDefault(m =>m.Id==idJefeOperaciones);
             
             if (jefeOperacionesEncontrado==null)
                 return;
-            _appContext.JefeOperacioness.Remove(jefeOperacionesEncontrado);
+            _appContext.JefesOperaciones.Remove(jefeOperacionesEncontrado);
             _appContext.SaveChanges();
                 
         }
 
         IEnumerable<JefeOperaciones> IRepositorioJefeOperaciones.ListarJefeOperacionesAll()
         {
-            return _appContext.JefeOperacioness;
+            return _appContext.JefesOperaciones;
         }
 
         JefeOperaciones IRepositorioJefeOperaciones.ObtenerJefeOperaciones(int idJefeOperaciones)
         {
-            return _appContext.JefeOperacioness.FirstOrDefault(m =>m.Id==idJefeOperaciones);
+            return _appContext.JefesOperaciones.FirstOrDefault(m =>m.Id==idJefeOperaciones);
 
         }
 

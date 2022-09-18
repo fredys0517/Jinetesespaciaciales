@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/QI81NUaU1072m+jSVIcMPQW++Kb/lBaafG0VNhWKA2U6lv9JGgTXS+sz2PTtZD/HoKuv6jCqlGS0l/vLZtrkw==",
+  "dgSpecHash": "M+4hqZRqIvxGHKvAq6X6Qg8mpNhVQ32tkFCW7bhEm+Ms44rfTI0G3g8wgM/J0/K+nVmzUssN9vnLIyp7mHy9lQ==",
   "success": true,
-  "projectFilePath": "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\rbt.app\\RBT.App.Persistencia\\RBT.App.Persistencia.csproj",
+  "projectFilePath": "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\rbt.app\\rbt.app.persistencia\\RBT.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jotace\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Jotace\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

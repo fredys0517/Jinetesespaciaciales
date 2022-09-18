@@ -19,7 +19,7 @@ namespace RBT.App.Persistencia
 
         Mantenimiento IRepositorioMantenimiento.AgregarMantenimiento(Mantenimiento mantenimiento)
         {
-            var mantenimientoAgregado= _appContext.Mantenimientoes.Add(mantenimiento);
+            var mantenimientoAgregado= _appContext.Mantenimientos.Add(mantenimiento);
             _appContext.SaveChanges();
             return mantenimientoAgregado.Entity;
         }
