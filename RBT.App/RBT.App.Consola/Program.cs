@@ -13,7 +13,8 @@ namespace RBT.App.Consola
         static void Main(String[] args)
         {
             Console.WriteLine("Hello, World Entity Framework!");
-            AgregarAuxiliar();
+            //AgregarAuxiliar();
+            Buscar(1);
         }
     
         private static void AgregarAuxiliar() 
@@ -28,6 +29,11 @@ namespace RBT.App.Consola
             _repositorioAuxiliar.AgregarAuxiliar(auxiliar);
         }
         
+        private static void Buscar(int idAuxiliar)
+        {
+            var auxiliar = _repositorioAuxiliar.ObtenerAuxiliar(idAuxiliar);
+            Console.WriteLine(auxiliar.Nombres+" "+auxiliar.Apellidos);
+        }
     
     }
 
