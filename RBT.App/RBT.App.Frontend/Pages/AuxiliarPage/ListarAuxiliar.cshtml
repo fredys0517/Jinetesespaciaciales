@@ -1,0 +1,36 @@
+@page
+@model RBT.App.Frontend.Pages.AuxiliarPage.ListarAuxiliar
+@{
+    ViewData["Title"] = "ListarAuxiliar";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+
+    @foreach (var auxiliar in Model.ListaAuxiliares)
+    {
+        <tr>
+            <td>@auxiliar.Nombres</td>
+            <td>@auxiliar.Apellidos</td>
+            <td>@auxiliar.Telefono</td>
+            <td>@auxiliar.FechaNacimiento</td>
+
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./EditarAuxiliar" asp-route-AuxiliarId="@auxiliar.Id">
+                    <i class="fas fa-address-book fa-lg" aria-hidden="true"> </i>
+                    Editar
+                </a>
+            </td>
+            <td>
+                <form method="post" asp-page-handler="Delete" asp-route-id="@auxiliar.Id">
+                    <button class="btn btn-danger">Borrar</button>
+                </form>
+            </td>
+
+        </tr>
+    }
+
+</table>
+
+<a asp-page="./CrearAuxiliar" class="btn btn-primary">Registrar</a>

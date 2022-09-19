@@ -1,0 +1,65 @@
+@page
+@model RBT.App.Frontend.Pages.AuxiliarPage.CrearAuxiliar
+@{
+    ViewData["AUXILIAR"] = "Auxiliar";
+}
+
+<h1>@ViewData["TITULO"]</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="CreateAux.Nombres">Nombres:</label>
+        <input asp-for="CreateAux.Nombres" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateAux.Nombres"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CreateAux.Apellidos">Apellidos:</label>
+        <input asp-for="CreateAux.Apellidos" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateAux.Apellidos"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CreateAux.Telefono">Telefono:</label>
+        <input asp-for="CreateAux.Telefono" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateAux.Telefono"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CreateAux.FechaNacimiento">FechaNacimiento:</label>
+        <input asp-for="CreateAux.FechaNacimiento" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateAux.FechaNacimiento"></span>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Crear</button>
+</form>
+<a asp-page="./ListarAuxiliar" class="btn-default">Lista</a>
+
+@* <div class="text-center">
+    <h1 class="text-center">NOMBRES</h1>
+     <input type="text"> <input text> 
+</div>
+<div class="text-center">
+    <h1 class="text-center">APELLIDOS</h1>
+     <input type="text"> <input text> 
+</div>
+<div class="text-center">
+    <h1 class="text-center">TELEFONO</h1>
+     <input type="number"> .
+</div>
+<div class="text-center">
+    <h1 class="text-center">FECHA DE NACIMIENTO</h1>
+     <input type="date">
+</div>
+<div class="text-center-right">
+<button>
+<input type="submit" value="Guardar">
+</button>
+</div>
+<div  class="text-center-left">
+<button type="reset">
+<p><input type="reset" value="Borrar"></p>
+</button>
+</div>
+<div  class="text-center-left">
+<p><input type="to update" value="Actualizar"></p>
+</button>
+</div> *@
+

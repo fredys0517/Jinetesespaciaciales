@@ -1,10 +1,10 @@
-using RBT.App.Persistencia;
+//using RBT.App.Persistencia;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-builder.Services.AddSingleton<IRepositorioAuxiliar, RepositorioAuxiliar>();
+//builder.Services.AddSingleton<IRepositorioAuxiliar, RepositorioAuxiliar>();
 //builder.Services.AddSingleton<IRepositorioAuxiliar, AppContext>();
 
 var app = builder.Build();
