@@ -1,0 +1,45 @@
+@page
+@model RBT.App.Frontend.Pages.MantenimientoPage.Mantenimiento
+@{
+    ViewData["Title"] = "Mantenimiento";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="text-center">
+  <h3 class="text-center">ACEITE</h3>
+    Indique su nivel de Aceite(de 1 a 10, de 3 en 3):
+<input type="range" name="rango"
+  min="1" max="10" step="1">
+</div>
+
+<div class="text-center">
+  <h3 class="text-center">LIQUIDO DE FRENO</h3>
+    Indique su nivel de liquido de freno(de 1 a 10, de 3 en 3):
+<input type="range" name="rango"
+  min="1" max="10" step="1">
+</div>
+
+<div class="text-center">
+  <h3 class="text-center">GAS REFRIGERANTE</h3>
+    Indique su nivel de gas refrigerante(de 1 a 10, de 3 en 3):
+<input type="range" name="rango"
+  min="1" max="10" step="1">
+</div>
+
+<div class="text-center">
+  <h3 class="text-center">LIQUIDO DE DIRECCION</h3>
+    Indique su nivel de liquido de dirección(de 1 a 10, de 3 en 3):
+<input type="range" name="rango"
+  min="1" max="10" step="1">
+</div>
+
+<div class="text-center">
+    <h3 class="text-center">FECHA DE MANTENIMIENTO</h3>
+     <input type="date">
+</div>
+
+<div class="text-center">
+    Veiculo:
+<input type="number" name="numero">
+</div>
