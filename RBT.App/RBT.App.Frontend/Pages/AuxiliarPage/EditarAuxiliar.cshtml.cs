@@ -11,22 +11,28 @@ using RBT.App.Persistencia;
 
 namespace RBT.App.Frontend.Pages.AuxiliarPage
 {
-    public class CrearAuxiliar : PageModel
+    public class EditarAuxiliar : PageModel
     {
         private readonly IRepositorioAuxiliar repositorioAuxiliar = new RepositorioAuxiliar(
             new Persistencia.AppContext()
         );
         [BindProperty]
         //CREAR UNA LISTA DONDE SE VA A GUARDAR LO QUE VENGA DEL REPOSITORIO
-        public Auxiliar CreateAux { get; set; }
+        public Auxiliar EditAux { get; set; }
 
-        public void OnGet() { }
+        public IActionResult OnGet(int AuxiliarId)
+        {
+            
+            EditAux=repositorioAuxiliar.ObtenerAuxiliar(AuxiliarId);
+            return Page();
+
+        }
+
         public IActionResult OnPost()
         {
             if(!ModelState.IsValid)
             return Page();
-
-            repositorioAuxiliar.AgregarAuxiliar(CreateAux);
+            repositorioAuxiliar.ActualizarAuxiliar(EditAux);
             return RedirectToPage("./ListarAuxiliar");
         }
 

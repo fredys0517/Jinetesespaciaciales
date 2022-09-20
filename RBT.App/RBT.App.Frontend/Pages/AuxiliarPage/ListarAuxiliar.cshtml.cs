@@ -21,5 +21,13 @@ namespace RBT.App.Frontend.Pages.AuxiliarPage
         {
             ListaAuxiliares = repositorioAuxiliar.ListarAuxiliarAll();
         }
+        
+        // Esta es la accion del boton eliminar--------------
+        public IActionResult OnPost(int numeroId)
+        {
+            repositorioAuxiliar.EliminarAuxiliar(numeroId);
+            return RedirectToAction("Get");
+        }
+        //----------------------------------------------------
     }
 }

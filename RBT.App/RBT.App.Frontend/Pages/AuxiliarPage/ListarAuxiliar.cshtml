@@ -23,7 +23,8 @@
                 </a>
             </td>
             <td>
-                <form method="post" asp-page-handler="Delete" asp-route-id="@auxiliar.Id">
+                @*//Este es el boton eliminar ----------------Aqui abajo tiene "numeroId" que es el nombre del parametro que recibe el metodo "OnPost" del boton eliminar*@
+                <form method="post" asp-page-handler="Delete" asp-route-numeroId="@auxiliar.Id">
                     <button class="btn btn-danger">Borrar</button>
                 </form>
             </td>

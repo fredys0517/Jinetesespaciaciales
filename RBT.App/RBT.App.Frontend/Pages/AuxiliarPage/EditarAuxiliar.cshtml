@@ -1,0 +1,37 @@
+@page
+@model RBT.App.Frontend.Pages.AuxiliarPage.EditarAuxiliar
+@{
+    ViewData["Title"] = "EditarAuxiliar";
+}
+
+<h1>Editar Auxiliar</h1>
+
+
+
+<form method="post">
+    <input type="hidden" asp-for="EditAux.Id">
+    
+    <div class="form-group">
+        <label asp-for="EditAux.Nombres">Nombres:</label>
+        <input asp-for="EditAux.Nombres" class="form-control">
+        <span class="text-danger" asp-validation-for="EditAux.Nombres"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditAux.Apellidos">Apellidos:</label>
+        <input asp-for="EditAux.Apellidos" class="form-control">
+        <span class="text-danger" asp-validation-for="EditAux.Apellidos"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditAux.Telefono">Telefono:</label>
+        <input asp-for="EditAux.Telefono" class="form-control">
+        <span class="text-danger" asp-validation-for="EditAux.Telefono"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditAux.FechaNacimiento">Fecha de Nacimiento:</label>
+        <input asp-for="EditAux.FechaNacimiento" class="form-control">
+        <span class="text-danger" asp-validation-for="EditAux.FechaNacimiento"></span>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Editar</button>
+</form>
+<a asp-page="./ListarAuxiliar" class="btn-default">Lista</a>
