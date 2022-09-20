@@ -1,0 +1,38 @@
+@page
+@model RBT.App.Frontend.Pages.JefeOperacionesPage.ListarJefeOperaciones
+@{
+    ViewData["Title"] = "ListarJefeOperaciones";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+
+<table class="table">
+
+    @foreach (var jefeoperaciones in Model.ListaJefesOperaciones)
+    {
+        <tr>
+            <td>@jefeoperaciones.Nombres</td>
+            <td>@jefeoperaciones.Apellidos</td>
+            <td>@jefeoperaciones.Telefono</td>
+            <td>@jefeoperaciones.FechaNacimiento</td>
+
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./EditarJefeOperaciones" asp-route-JefeOperacionesId="@jefeoperaciones.Id">
+                    <i class="fas fa-address-book fa-lg" aria-hidden="true"> </i>
+                    Editar
+                </a>
+            </td>
+            <td>
+                @*//Este es el boton eliminar ----------------Aqui abajo tiene "numeroId" que es el nombre del parametro que recibe el metodo "OnPost" del boton eliminar*@
+                <form method="post" asp-page-handler="Delete" asp-route-numeroId="@jefeoperaciones.Id">
+                    <button class="btn btn-danger">Borrar</button>
+                </form>
+            </td>
+
+        </tr>
+    }
+
+</table>
+
+<a asp-page="./CrearJefeOperaciones" class="btn btn-primary">Registrar</a>

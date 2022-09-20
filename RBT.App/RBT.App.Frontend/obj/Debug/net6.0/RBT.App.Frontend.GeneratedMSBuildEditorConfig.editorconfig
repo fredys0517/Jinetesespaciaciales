@@ -35,16 +35,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/JefeOperacionesPage/JefeOperaciones.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZU9wZXJhY2lvbmVzUGFnZVxKZWZlT3BlcmFjaW9uZXMuY3NodG1s
+[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/JefeOperacionesPage/CrearJefeOperaciones.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZU9wZXJhY2lvbmVzUGFnZVxDcmVhckplZmVPcGVyYWNpb25lcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/JefeOperacionesPage/EditarJefeOperaciones.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZU9wZXJhY2lvbmVzUGFnZVxFZGl0YXJKZWZlT3BlcmFjaW9uZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/JefeOperacionesPage/ListarJefeOperaciones.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZU9wZXJhY2lvbmVzUGFnZVxMaXN0YXJKZWZlT3BlcmFjaW9uZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/LogIn/LogInMenu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nSW5cTG9nSW5NZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/MantenimientoPage/Mantenimiento.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFudGVuaW1pZW50b1BhZ2VcTWFudGVuaW1pZW50by5jc2h0bWw=
+[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/MantenimientoPage/CrearMantenimiento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFudGVuaW1pZW50b1BhZ2VcQ3JlYXJNYW50ZW5pbWllbnRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/MecanicoPage/Mecanico.cshtml]

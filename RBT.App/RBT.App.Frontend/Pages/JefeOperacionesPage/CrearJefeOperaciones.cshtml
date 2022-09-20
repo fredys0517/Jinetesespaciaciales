@@ -1,0 +1,68 @@
+@page
+@model RBT.App.Frontend.Pages.JefeOperacionesPage.CrearJefeOperaciones
+@{
+    ViewData["Title"] = "JefeOperaciones";
+}
+
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="CreateJefeOp.Nombres">Nombres:</label>
+        <input asp-for="CreateJefeOp.Nombres" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateJefeOp.Nombres"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CreateJefeOp.Apellidos">Apellidos:</label>
+        <input asp-for="CreateJefeOp.Apellidos" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateJefeOp.Apellidos"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CreateJefeOp.Telefono">Telefono:</label>
+        <input asp-for="CreateJefeOp.Telefono" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateJefeOp.Telefono"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CreateJefeOp.FechaNacimiento">FechaNacimiento:</label>
+        <input asp-for="CreateJefeOp.FechaNacimiento" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateJefeOp.FechaNacimiento"></span>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Crear</button>
+</form>
+<a asp-page="./ListarJefeOperaciones" class="btn-default">Lista</a>
+
+
+
+
+@* <h1>@ViewData["Title"]</h1>
+<div class="text-center">
+    <h1>@ViewData["Auxiliar Mecanico"]</h1>
+    <h1 class="text-center">NOMBRES</h1>
+     <input type="text"> <input text> 
+</div>
+<div class="text-center">
+    <h1 class="text-center">APELLIDOS</h1>
+     <input type="text"> <input text> 
+</div>
+<div class="text-center">
+    <h1 class="text-center">TELEFONO</h1>
+     <input type="number"> .
+</div>
+<div class="text-center">
+    <h1 class="text-center">FECHA DE NACIMIENTO</h1>
+     <input type="date">
+</div>
+<div class="text-center-right">
+<button>
+<input type="submit" value="Guardar">
+</button>
+</div>
+<div  class="text-center-left">
+<button type="reset">
+<input type="reset" value="Borrar">
+</button>
+</div>
+<div  class="text-center-left">
+<input type="to update" value="Actualizar">
+</button>
+</div> *@

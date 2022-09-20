@@ -8,14 +8,9 @@ using Microsoft.Extensions.Logging;
 
 namespace RBT.App.Frontend.Pages.MantenimientoPage
 {
-    public class Mantenimiento : PageModel
+    public class CrearMantenimiento : PageModel
     {
-        private readonly ILogger<Mantenimiento> _logger;
-
-        public Mantenimiento(ILogger<Mantenimiento> logger)
-        {
-            _logger = logger;
-        }
+        
 
         public void OnGet()
         {
