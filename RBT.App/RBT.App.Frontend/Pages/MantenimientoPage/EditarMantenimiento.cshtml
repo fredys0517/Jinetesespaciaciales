@@ -1,0 +1,45 @@
+@page
+@model RBT.App.Frontend.Pages.MantenimientoPage.EditarMantenimiento
+@{
+    ViewData["Title"] = "EditarMantenimiento";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="EditarMant.Id">
+    
+    <div class="form-group">
+        <label asp-for="EditarMant.NivelAceite">Nivel Aceite:</label>
+        <input asp-for="EditarMant.NivelAceite" class="form-control">
+        <span class="text-danger" asp-validation-for="EditarMant.NivelAceite"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditarMant.NivelLiquidoFrenos">Nivel Liquido Frenos:</label>
+        <input asp-for="EditarMant.NivelLiquidoFrenos" class="form-control">
+        <span class="text-danger" asp-validation-for="EditarMant.NivelLiquidoFrenos"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditarMant.NivelRefrigerante">Nivel Refrigerante:</label>
+        <input asp-for="EditarMant.NivelRefrigerante" class="form-control">
+        <span class="text-danger" asp-validation-for="EditarMant.NivelRefrigerante"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditarMant.NivelLiquidoDireccion">Nivel Liquido Direccion:</label>
+        <input asp-for="EditarMant.NivelLiquidoDireccion" class="form-control">
+        <span class="text-danger" asp-validation-for="EditarMant.NivelLiquidoDireccion"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditarMant.FechaMantenimiento">Fecha Mantenimiento:</label>
+        <input asp-for="EditarMant.FechaMantenimiento" class="form-control">
+        <span class="text-danger" asp-validation-for="EditarMant.FechaMantenimiento"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditarMant.vehiculoId">vehiculo Id:</label>
+        <input asp-for="EditarMant.vehiculoId" class="form-control">
+        <span class="text-danger" asp-validation-for="EditarMant.vehiculoId"></span>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Editar</button>
+</form>
+<a asp-page="./ListarMantenimiento" class="btn-default">Lista</a>

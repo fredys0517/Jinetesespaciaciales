@@ -15,7 +15,7 @@ namespace RBT.App.Frontend.Pages.VehiculoPage
     public class ListarVehiculo : PageModel
     {
         
-       private readonly IRepositorioVehiculo repositorioVehiculo = new RepositorioVehiculo(new Persistencia.AppContext());
+        private readonly IRepositorioVehiculo repositorioVehiculo = new RepositorioVehiculo(new Persistencia.AppContext());
         //CREAR UNA LISTA DONDE SE VA A GUARDAR LO QUE VENGA DEL REPOSITORIO
         public IEnumerable<Vehiculo> ListaVehiculo { get; set; }
 

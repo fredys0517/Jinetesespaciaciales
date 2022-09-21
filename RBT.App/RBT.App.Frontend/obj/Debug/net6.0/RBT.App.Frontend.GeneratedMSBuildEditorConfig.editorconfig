@@ -47,6 +47,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZU9wZXJhY2lvbmVzUGFnZVxMaXN0YXJKZWZlT3BlcmFjaW9uZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/MantenimientoPage/CrearMantenimiento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFudGVuaW1pZW50b1BhZ2VcQ3JlYXJNYW50ZW5pbWllbnRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/MantenimientoPage/EditarMantenimiento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFudGVuaW1pZW50b1BhZ2VcRWRpdGFyTWFudGVuaW1pZW50by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/MantenimientoPage/ListarMantenimiento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFudGVuaW1pZW50b1BhZ2VcTGlzdGFyTWFudGVuaW1pZW50by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/MecanicoPage/crearMecanico.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVjYW5pY29QYWdlXGNyZWFyTWVjYW5pY28uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

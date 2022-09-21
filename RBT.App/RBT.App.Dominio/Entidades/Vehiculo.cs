@@ -19,9 +19,6 @@ namespace RBT.App.Dominio
         public int? mecanicoId {get;set;}
         public int? propietarioId {get;set;}
 
-
-
-
         //______________
 
         //public ICollection<Mantenimiento> Mantenimientos { get; set; }
