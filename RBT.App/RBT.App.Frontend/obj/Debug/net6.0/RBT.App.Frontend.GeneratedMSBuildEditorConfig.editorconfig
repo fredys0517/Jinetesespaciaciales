@@ -8,93 +8,93 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RBT.App.Frontend
 build_property.RootNamespace = RBT.App.Frontend
-build_property.ProjectDir = C:\Repositorios\RepMintic\Jinetesespaciaciales\RBT.App\RBT.App.Frontend\
+build_property.ProjectDir = C:\Jinetesespaciaciales\RBT.App\RBT.App.Frontend\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Repositorios\RepMintic\Jinetesespaciaciales\RBT.App\RBT.App.Frontend
+build_property.MSBuildProjectDirectory = C:\Jinetesespaciaciales\RBT.App\RBT.App.Frontend
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/AuxiliarPage/CrearAuxiliar.cshtml]
+[C:/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/AuxiliarPage/CrearAuxiliar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV4aWxpYXJQYWdlXENyZWFyQXV4aWxpYXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/AuxiliarPage/EditarAuxiliar.cshtml]
+[C:/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/AuxiliarPage/EditarAuxiliar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV4aWxpYXJQYWdlXEVkaXRhckF1eGlsaWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/AuxiliarPage/ListarAuxiliar.cshtml]
+[C:/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/AuxiliarPage/ListarAuxiliar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV4aWxpYXJQYWdlXExpc3RhckF1eGlsaWFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/Error.cshtml]
+[C:/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/Index.cshtml]
+[C:/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/JefeOperacionesPage/CrearJefeOperaciones.cshtml]
+[C:/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/JefeOperacionesPage/CrearJefeOperaciones.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZU9wZXJhY2lvbmVzUGFnZVxDcmVhckplZmVPcGVyYWNpb25lcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/JefeOperacionesPage/EditarJefeOperaciones.cshtml]
+[C:/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/JefeOperacionesPage/EditarJefeOperaciones.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZU9wZXJhY2lvbmVzUGFnZVxFZGl0YXJKZWZlT3BlcmFjaW9uZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/JefeOperacionesPage/ListarJefeOperaciones.cshtml]
+[C:/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/JefeOperacionesPage/ListarJefeOperaciones.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSmVmZU9wZXJhY2lvbmVzUGFnZVxMaXN0YXJKZWZlT3BlcmFjaW9uZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/LogIn/LogInMenu.cshtml]
+[C:/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/LogIn/LogInMenu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9nSW5cTG9nSW5NZW51LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/MantenimientoPage/CrearMantenimiento.cshtml]
+[C:/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/MantenimientoPage/CrearMantenimiento.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFudGVuaW1pZW50b1BhZ2VcQ3JlYXJNYW50ZW5pbWllbnRvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/MecanicoPage/Mecanico.cshtml]
+[C:/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/MecanicoPage/Mecanico.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVjYW5pY29QYWdlXE1lY2FuaWNvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/Privacy.cshtml]
+[C:/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/PropietarioPage/Propietario.cshtml]
+[C:/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/PropietarioPage/Propietario.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvcGlldGFyaW9QYWdlXFByb3BpZXRhcmlvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/ReparacionPage/Reparacion.cshtml]
+[C:/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/ReparacionPage/Reparacion.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwYXJhY2lvblBhZ2VcUmVwYXJhY2lvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/SoatPage/Soat.cshtml]
+[C:/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/SoatPage/Soat.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29hdFBhZ2VcU29hdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/UsuarioAppPage/UsuarioApp.cshtml]
+[C:/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/UsuarioAppPage/UsuarioApp.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXN1YXJpb0FwcFBhZ2VcVXN1YXJpb0FwcC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/VehiculoPage/Vehiculo.cshtml]
+[C:/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/VehiculoPage/Vehiculo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmVoaWN1bG9QYWdlXFZlaGljdWxvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/_ViewImports.cshtml]
+[C:/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/_ViewStart.cshtml]
+[C:/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Repositorios/RepMintic/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/Shared/_Layout.cshtml]
+[C:/Jinetesespaciaciales/RBT.App/RBT.App.Frontend/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-ly9ejew618
