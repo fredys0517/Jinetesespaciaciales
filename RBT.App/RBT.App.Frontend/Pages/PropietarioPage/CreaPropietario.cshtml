@@ -1,0 +1,43 @@
+@page
+@model RBT.App.Frontend.Pages.PropietarioPage.CreaPropietario
+@{
+    ViewData["Title"] = "CreaPropietario";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="CreateProp.Nombres">Nombres:</label>
+        <input asp-for="CreateProp.Nombres" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateProp.Nombres"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CreateProp.Apellidos">Apellidos:</label>
+        <input asp-for="CreateProp.Apellidos" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateProp.Apellidos"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CreateProp.Telefono">Telefono:</label>
+        <input asp-for="CreateProp.Telefono" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateProp.Telefono"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CreateProp.FechaNacimiento">Fecha Nacimiento:</label>
+        <input asp-for="CreateProp.FechaNacimiento" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateProp.FechaNacimiento"></span>
+    </div>
+        <div class="form-group">
+        <label asp-for="CreateProp.CiudadResidencia">Ciudad Residencia:</label>
+        <input asp-for="CreateProp.CiudadResidencia" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateProp.CiudadResidencia"></span>
+    </div>
+        </div>
+        <div class="form-group">
+        <label asp-for="CreateProp.Correo">Correo:</label>
+        <input asp-for="CreateProp.Correo" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateProp.Correo"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Crear</button>
+</form>
+<a asp-page="./ListarPropietario" class="btn-default">Lista</a>

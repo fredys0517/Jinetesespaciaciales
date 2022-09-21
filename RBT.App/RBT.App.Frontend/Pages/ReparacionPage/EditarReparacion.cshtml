@@ -1,0 +1,30 @@
+@page
+@model RBT.App.Frontend.Pages.ReparacionPage.EditarReparacion
+@{
+    ViewData["Title"] = "EditarReparacion";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="EditRep.Id">
+    
+    <div class="form-group">
+        <label asp-for="EditRep.FechaReparacion">Fecha Reparacion:</label>
+        <input asp-for="EditRep.FechaReparacion" class="form-control">
+        <span class="text-danger" asp-validation-for="EditRep.FechaReparacion"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditRep.RepuestosCambiados">Repuestos Cambiados:</label>
+        <input asp-for="EditRep.RepuestosCambiados" class="form-control">
+        <span class="text-danger" asp-validation-for="EditRep.RepuestosCambiados"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditRep.mantenimientoId">Mantenimiento Id:</label>
+        <input asp-for="EditRep.mantenimientoId" class="form-control">
+        <span class="text-danger" asp-validation-for="EditRep.mantenimientoId"></span>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Editar</button>
+</form>
+<a asp-page="./ListarReparaciones" class="btn-default">Lista</a>

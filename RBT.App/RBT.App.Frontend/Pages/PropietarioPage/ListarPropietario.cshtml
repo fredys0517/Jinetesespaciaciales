@@ -1,0 +1,40 @@
+@page
+@model RBT.App.Frontend.Pages.PropietarioPage.ListarPropietario
+@{
+    ViewData["Title"] = "ListarPropietario";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+
+<table class="table">
+
+    @foreach (var propietario in Model.ListaPropietario)
+    {
+        <tr>
+            <td>@propietario.Nombres</td>
+            <td>@propietario.Apellidos</td>
+            <td>@propietario.Telefono</td>
+            <td>@propietario.FechaNacimiento</td>
+             <td>@propietario.CiudadResidencia</td>
+              <td>@propietario.Correo</td>
+
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./EditarPropietario" asp-route-PropietarioId="@propietario.Id">
+                    <i class="fas fa-address-book fa-lg" aria-hidden="true"> </i>
+                    Editar
+                </a>
+            </td>
+            <td>
+                @*//Este es el boton eliminar ----------------Aqui abajo tiene "numeroId" que es el nombre del parametro que recibe el metodo "OnPost" del boton eliminar*@
+                <form method="post" asp-page-handler="Delete" asp-route-numeroId="@propietario.Id">
+                    <button class="btn btn-danger">Borrar</button>
+                </form>
+            </td>
+
+        </tr>
+    }
+
+</table>
+
+<a asp-page="./CrearPropietario" class="btn btn-primary">Registrar</a>

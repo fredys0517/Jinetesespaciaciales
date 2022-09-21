@@ -1,0 +1,58 @@
+@page
+@model RBT.App.Frontend.Pages.VehiculoPage.CrearVehiculo
+@{
+    ViewData["Title"] = "CrearVehiculo";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="CreateVehi.Placa">Placa:</label>
+        <input asp-for="CreateVehi.Placa" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateVehi.Placa"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CreateVehi.TipoVehiculo">Tipo Vehiculo:</label>
+        <input asp-for="CreateVehi.TipoVehiculo" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateVehi.TipoVehiculo"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CreateVehi.Marca">Marca:</label>
+        <input asp-for="CreateVehi.Marca" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateVehi.Marca"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CreateVehi.Pasajero">Pasajero:</label>
+        <input asp-for="CreateVehi.Pasajero" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateVehi.Pasajero"></span>
+    </div>
+     <div class="form-group">
+        <label asp-for="CreateVehi.Cilindraje">Cilindraje:</label>
+        <input asp-for="CreateVehi.Cilindraje" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateVehi.Cilindraje"></span>
+    </div>
+     <div class="form-group">
+        <label asp-for="CreateVehi.PaisOrigen">PaisOrigen:</label>
+        <input asp-for="CreateVehi.PaisOrigen" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateVehi.PaisOrigen"></span>
+    </div>
+     <div class="form-group">
+        <label asp-for="CreateVehi.CaracteristicasExtra">CaracteristicasExtra:</label>
+        <input asp-for="CreateVehi.CaracteristicasExtra" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateVehi.CaracteristicasExtra"></span>
+    </div>
+     <div class="form-group">
+        <label asp-for="CreateVehi.mecanicoId">mecanico Id:</label>
+        <input asp-for="CreateVehi.mecanicoId" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateVehi.mecanicoId"></span>
+    </div>
+     <div class="form-group">
+        <label asp-for="CreateVehi.propietarioId">propietario Id:</label>
+        <input asp-for="CreateVehi.propietarioId" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateVehi.propietarioId"></span>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Crear</button>
+</form>
+<a asp-page="./ListarVehiculo" class="btn-default">Lista</a>

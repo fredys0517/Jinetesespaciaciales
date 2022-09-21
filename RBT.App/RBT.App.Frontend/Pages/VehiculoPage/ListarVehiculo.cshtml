@@ -1,0 +1,42 @@
+@page
+@model RBT.App.Frontend.Pages.VehiculoPage.ListarVehiculo
+@{
+    ViewData["Title"] = "ListarVehiculo";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+
+
+    @foreach (var vehiculo in Model.ListaVehiculo)
+    {
+        <tr>
+            <td>@vehiculo.Placa</td>
+            <td>@vehiculo.TipoVehiculo</td>
+            <td>@vehiculo.Marca</td>
+            <td>@vehiculo.Pasajero</td>
+            <td>@vehiculo.Cilindraje</td>
+            <td>@vehiculo.PaisOrigen</td>
+            <td>@vehiculo.CaracteristicasExtra</td>
+            <td>@vehiculo.mecanicoId</td>
+            <td>@vehiculo.propietarioId</td>
+
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./EditarVehiculo" asp-route-VehiculoId="@vehiculo.Id">
+                    <i class="fas fa-address-book fa-lg" aria-hidden="true"> </i>
+                    Editar
+                </a>
+            </td>
+            <td>
+                @*//Este es el boton eliminar ----------------Aqui abajo tiene "numeroId" que es el nombre del parametro que recibe el metodo "OnPost" del boton eliminar*@
+                <form method="post" asp-page-handler="Delete" asp-route-numeroId="@vehiculo.Id">
+                    <button class="btn btn-danger">Borrar</button>
+                </form>
+            </td>
+
+        </tr>
+    }
+</table>
+<a asp-page="./CrearVehiculo" class="btn btn-primary">Registrar</a>
+

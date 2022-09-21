@@ -1,0 +1,28 @@
+@page
+@model RBT.App.Frontend.Pages.SoatPage.CrearSoat
+@{
+    ViewData["Title"] = "CrearSoat";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="CreateSoat.FechaCompra">Fecha de Compra:</label>
+        <input asp-for="CreateSoat.FechaCompra" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateSoat.FechaCompra"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CreateSoat.FechaVencimiento">Fecha de Vencimiento:</label>
+        <input asp-for="CreateSoat.FechaVencimiento" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateSoat.FechaVencimiento"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CreateSoat.vehiculoId">vehiculo Id:</label>
+        <input asp-for="CreateSoat.vehiculoId" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateSoat.vehiculoId"></span>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Crear</button>
+</form>
+<a asp-page="./ListarSoat" class="btn-default">Lista</a>

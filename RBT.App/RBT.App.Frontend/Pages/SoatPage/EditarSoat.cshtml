@@ -1,0 +1,30 @@
+@page
+@model RBT.App.Frontend.Pages.SoatPage.EditarSoat
+@{
+    ViewData["Title"] = "EditarSoat";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="EditSoat.Id">
+    
+    <div class="form-group">
+        <label asp-for="EditSoat.FechaCompra">Fecha de Compra:</label>
+        <input asp-for="EditSoat.FechaCompra" class="form-control">
+        <span class="text-danger" asp-validation-for="EditSoat.FechaCompra"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditSoat.FechaVencimiento">Fecha de Vencimiento:</label>
+        <input asp-for="EditSoat.FechaVencimiento" class="form-control">
+        <span class="text-danger" asp-validation-for="EditSoat.FechaVencimiento"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditSoat.vehiculoId">Telefono:</label>
+        <input asp-for="EditSoat.vehiculoId" class="form-control">
+        <span class="text-danger" asp-validation-for="EditSoat.vehiculoId"></span>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Editar</button>
+</form>
+<a asp-page="./ListarSoat" class="btn-default">Lista</a>

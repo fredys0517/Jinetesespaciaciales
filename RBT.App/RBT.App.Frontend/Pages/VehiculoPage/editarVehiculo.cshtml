@@ -1,0 +1,60 @@
+@page
+@model RBT.App.Frontend.Pages.VehiculoPage.editarVehiculo
+@{
+    ViewData["Title"] = "editarVehiculo";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="EditarVehi.Id">
+    
+    <div class="form-group">
+        <label asp-for="EditarVehi.Placa">Placa:</label>
+        <input asp-for="EditarVehi.Placa" class="form-control">
+        <span class="text-danger" asp-validation-for="EditarVehi.Placa"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditarVehi.TipoVehiculo">Tipo de Vehiculo:</label>
+        <input asp-for="EditarVehi.TipoVehiculo" class="form-control">
+        <span class="text-danger" asp-validation-for="EditarVehi.TipoVehiculo"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditarVehi.Marca">Marca:</label>
+        <input asp-for="EditarVehi.Marca" class="form-control">
+        <span class="text-danger" asp-validation-for="EditarVehi.Marca"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditarVehi.Pasajero">Pasajero:</label>
+        <input asp-for="EditarVehi.Pasajero" class="form-control">
+        <span class="text-danger" asp-validation-for="EditarVehi.Pasajero"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditarVehi.Cilindraje">Cilindraje:</label>
+        <input asp-for="EditarVehi.Cilindraje" class="form-control">
+        <span class="text-danger" asp-validation-for="EditarVehi.Cilindraje"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditarVehi.PaisOrigen">Pais de Origen:</label>
+        <input asp-for="EditarVehi.PaisOrigen" class="form-control">
+        <span class="text-danger" asp-validation-for="EditarVehi.PaisOrigen"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditarVehi.CaracteristicasExtra">Caracteristicas Extra del vehiculo:</label>
+        <input asp-for="EditarVehi.CaracteristicasExtra" class="form-control">
+        <span class="text-danger" asp-validation-for="EditarVehi.CaracteristicasExtra"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditarVehi.mecanicoId">mecanico Id:</label>
+        <input asp-for="EditarVehi.mecanicoId" class="form-control">
+        <span class="text-danger" asp-validation-for="EditarVehi.mecanicoId"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditarVehi.propietarioId">propietario Id:</label>
+        <input asp-for="EditarVehi.propietarioId" class="form-control">
+        <span class="text-danger" asp-validation-for="EditarVehi.propietarioId"></span>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Editar</button>
+</form>
+<a asp-page="./ListarVehiculo" class="btn-default">Lista</a>

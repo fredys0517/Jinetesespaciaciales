@@ -1,0 +1,33 @@
+@page
+@model RBT.App.Frontend.Pages.MecanicoPage.crearMecanico
+@{
+    ViewData["Title"] = "crearMecanico";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="CreateMec.Nombres">Nombres:</label>
+        <input asp-for="CreateMec.Nombres" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateMec.Nombres"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CreateMec.Apellidos">Apellidos:</label>
+        <input asp-for="CreateMec.Apellidos" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateMec.Apellidos"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CreateMec.Telefono">Telefono:</label>
+        <input asp-for="CreateMec.Telefono" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateMec.Telefono"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="CreateMec.FechaNacimiento">FechaNacimiento:</label>
+        <input asp-for="CreateMec.FechaNacimiento" class="form-control">
+        <span class="text-danger" asp-validation-for="CreateMec.FechaNacimiento"></span>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Crear</button>
+</form>
+<a asp-page="./ListarMecanico" class="btn-default">Lista</a>

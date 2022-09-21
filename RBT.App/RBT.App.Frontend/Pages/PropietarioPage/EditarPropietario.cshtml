@@ -1,0 +1,45 @@
+@page
+@model RBT.App.Frontend.Pages.PropietarioPage.EditarPropietario
+@{
+    ViewData["Title"] = "EditarPropietario";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="EditProp.Id">
+    
+    <div class="form-group">
+        <label asp-for="EditProp.Nombres">Nombres:</label>
+        <input asp-for="EditProp.Nombres" class="form-control">
+        <span class="text-danger" asp-validation-for="EditProp.Nombres"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditProp.Apellidos">Apellidos:</label>
+        <input asp-for="EditProp.Apellidos" class="form-control">
+        <span class="text-danger" asp-validation-for="EditProp.Apellidos"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditProp.Telefono">Telefono:</label>
+        <input asp-for="EditProp.Telefono" class="form-control">
+        <span class="text-danger" asp-validation-for="EditProp.Telefono"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditProp.FechaNacimiento">Fecha de Nacimiento:</label>
+        <input asp-for="EditProp.FechaNacimiento" class="form-control">
+        <span class="text-danger" asp-validation-for="EditProp.FechaNacimiento"></span>
+    </div>
+        <div class="form-group">
+        <label asp-for="EditProp.CiudadResidencia">Ciudad de Residencia:</label>
+        <input asp-for="EditProp.CiudadResidencia" class="form-control">
+        <span class="text-danger" asp-validation-for="EditProp.CiudadResidencia"></span>
+    </div>
+        <div class="form-group">
+        <label asp-for="EditProp.Correo">Fecha de Nacimiento:</label>
+        <input asp-for="EditProp.Correo" class="form-control">
+        <span class="text-danger" asp-validation-for="EditProp.Correo"></span>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Editar</button>
+</form>
+<a asp-page="./ListarPropietario" class="btn-default">Lista</a>

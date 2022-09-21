@@ -1,0 +1,35 @@
+@page
+@model RBT.App.Frontend.Pages.MecanicoPage.EditarMecanico
+@{
+    ViewData["Title"] = "EditarMecanico";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="EditMec.Id">
+    
+    <div class="form-group">
+        <label asp-for="EditMec.Nombres">Nombres:</label>
+        <input asp-for="EditMec.Nombres" class="form-control">
+        <span class="text-danger" asp-validation-for="EditMec.Nombres"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditMec.Apellidos">Apellidos:</label>
+        <input asp-for="EditMec.Apellidos" class="form-control">
+        <span class="text-danger" asp-validation-for="EditMec.Apellidos"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditMec.Telefono">Telefono:</label>
+        <input asp-for="EditMec.Telefono" class="form-control">
+        <span class="text-danger" asp-validation-for="EditMec.Telefono"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="EditMec.FechaNacimiento">Fecha de Nacimiento:</label>
+        <input asp-for="EditMec.FechaNacimiento" class="form-control">
+        <span class="text-danger" asp-validation-for="EditMec.FechaNacimiento"></span>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Editar</button>
+</form>
+<a asp-page="./ListarMecanico" class="btn-default">Lista</a>

@@ -16,6 +16,11 @@ namespace RBT.App.Dominio
         public string? Cilindraje {get;set;}
         public string? PaisOrigen {get;set;}
         public string? CaracteristicasExtra {get;set;}
+        public int? mecanicoId {get;set;}
+        public int? propietarioId {get;set;}
+
+
+
 
         //______________
 
@@ -25,10 +30,10 @@ namespace RBT.App.Dominio
         //______________
 
         //public int MecanicoId { get; set; } // Llave Foranea
-        public Mecanico mecanico {get;set;} // Propiedad de Navegacion
+        public Mecanico? mecanico {get;set;} // Propiedad de Navegacion
 
         //public int PropietarioId { get; set; } // Llave Foranea
-        public Propietario propietario {get;set;} // Propiedad de Navegacion
+        public Propietario? propietario {get;set;} // Propiedad de Navegacion
 
     }
 }
