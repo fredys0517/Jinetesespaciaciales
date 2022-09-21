@@ -18,13 +18,11 @@ namespace RBT.App.Frontend.Pages.MantenimientoPage
         );
         [BindProperty]
         //CREAR UNA LISTA DONDE SE VA A GUARDAR LO QUE VENGA DEL REPOSITORIO
-        public Mantenimiento CreateMant { get; set; }
+        public Mantenimiento CreateMant { get; set; }=new();
 
         public void OnGet() { }
         public IActionResult OnPost()
         {
-            if(!ModelState.IsValid)
-            return Page();
 
             repositorioMantenimiento.AgregarMantenimiento(CreateMant);
             return RedirectToPage("./ListarMantenimiento");

@@ -57,6 +57,7 @@ namespace RBT.App.Persistencia
                 mantenimientoEncontrado.NivelRefrigerante=mantenimiento.NivelRefrigerante;
                 mantenimientoEncontrado.NivelLiquidoDireccion=mantenimiento.NivelLiquidoDireccion;
                 mantenimientoEncontrado.FechaMantenimiento=mantenimiento.FechaMantenimiento;
+                mantenimientoEncontrado.vehiculoId=mantenimiento.vehiculoId;
                 _appContext.SaveChanges();
                 
             }

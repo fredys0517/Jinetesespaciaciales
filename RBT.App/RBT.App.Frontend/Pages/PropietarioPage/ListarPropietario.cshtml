@@ -8,7 +8,16 @@
 
 
 <table class="table">
-
+<thead>
+    <tr>
+        <th>Nombres</th>
+        <th>Apellidos</th>
+        <th>Telefono</th>
+        <th>Fecha de Nacimiento</th>
+        <th>Ciudad Residencia</th>
+        <th>Correo Electronico</th>
+    </tr>
+</thead>
     @foreach (var propietario in Model.ListaPropietario)
     {
         <tr>
@@ -38,3 +47,13 @@
 </table>
 
 <a asp-page="./CrearPropietario" class="btn btn-primary">Registrar</a>
+<body>
+      <style>
+      body {
+  background-image: url('https://th.bing.com/th/id/OIP.SCnDhYg9HcUUfvAxrW57PgHaEo?pid=ImgDet&rs=1');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  } 
+  </style>
+</body>
