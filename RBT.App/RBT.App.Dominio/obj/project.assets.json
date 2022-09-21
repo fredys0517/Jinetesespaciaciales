@@ -8,26 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\DELL\\.nuget\\packages\\": {}
+    "C:\\Users\\Jotace\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Jinetesespaciaciales\\RBT.App\\RBT.App.Dominio\\RBT.App.Dominio.csproj",
+      "projectUniqueName": "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\RBT.App\\RBT.App.Dominio\\RBT.App.Dominio.csproj",
       "projectName": "RBT.App.Dominio",
-      "projectPath": "C:\\Jinetesespaciaciales\\RBT.App\\RBT.App.Dominio\\RBT.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Jinetesespaciaciales\\RBT.App\\RBT.App.Dominio\\obj\\",
+      "projectPath": "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\RBT.App\\RBT.App.Dominio\\RBT.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\Jotace\\.nuget\\packages\\",
+      "outputPath": "C:\\Repositorios\\RepMintic\\Jinetesespaciaciales\\RBT.App\\RBT.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Jotace\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

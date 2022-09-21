@@ -9,16 +9,18 @@ using Microsoft.Extensions.Logging;
 using RBT.App.Dominio;
 using RBT.App.Persistencia;
 
-namespace RBT.App.Frontend.Pages.MantenimientoPage
+
+namespace RBT.App.Frontend.Pages.PropietarioPage
 {
-    public class CrearMantenimiento : PageModel
+    public class CrearPropietario : PageModel
     {
-        private readonly IRepositorioMantenimiento repositorioMantenimiento = new RepositorioMantenimiento(
+        
+        private readonly IRepositorioPropietario repositorioPropietario = new RepositorioPropietario(
             new Persistencia.AppContext()
         );
         [BindProperty]
         //CREAR UNA LISTA DONDE SE VA A GUARDAR LO QUE VENGA DEL REPOSITORIO
-        public Mantenimiento CreateMant { get; set; }
+        public Propietario CreateProp { get; set; }
 
         public void OnGet() { }
         public IActionResult OnPost()
@@ -26,11 +28,8 @@ namespace RBT.App.Frontend.Pages.MantenimientoPage
             if(!ModelState.IsValid)
             return Page();
 
-            repositorioMantenimiento.AgregarMantenimiento(CreateMant);
-            return RedirectToPage("./ListarMantenimiento");
+            repositorioPropietario.AgregarPropietario(CreateProp);
+            return RedirectToPage("./ListarPropietario");
         }
-        
-
-        
     }
 }

@@ -9,27 +9,32 @@ using Microsoft.Extensions.Logging;
 using RBT.App.Dominio;
 using RBT.App.Persistencia;
 
-
-namespace RBT.App.Frontend.Pages.PropietarioPage
+namespace RBT.App.Frontend.Pages.UsuarioAppPage
 {
-    public class CreaPropietario : PageModel
+    public class EditarUsuarioApp : PageModel
     {
-        
-        private readonly IRepositorioPropietario repositorioPropietario = new RepositorioPropietario(
+         private readonly IRepositorioUsuarioApp repositorioUsuarioApp = new RepositorioUsuarioApp(
             new Persistencia.AppContext()
         );
         [BindProperty]
         //CREAR UNA LISTA DONDE SE VA A GUARDAR LO QUE VENGA DEL REPOSITORIO
-        public Propietario CreateProp { get; set; }
+        public UsuarioApp EditUsu { get; set; }
 
-        public void OnGet() { }
+        public IActionResult OnGet(int UsuarioAppId)
+        {
+            
+            EditUsu=repositorioUsuarioApp.ObtenerUsuarioApp(UsuarioAppId);
+            return Page();
+
+        }
+
         public IActionResult OnPost()
         {
             if(!ModelState.IsValid)
             return Page();
-
-            repositorioPropietario.AgregarPropietario(CreateProp);
-            return RedirectToPage("./ListarPropietario");
+            repositorioUsuarioApp.ActualizarUsuarioApp(EditUsu);
+            return RedirectToPage("./ListarUsuarioApp");
         }
+
     }
 }

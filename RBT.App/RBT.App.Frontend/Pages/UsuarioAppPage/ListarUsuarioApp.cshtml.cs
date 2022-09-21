@@ -5,30 +5,28 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
-//-----------------------------
+//---------------------------------------
 using RBT.App.Dominio;
 using RBT.App.Persistencia;
 
-namespace RBT.App.Frontend.Pages.PropietarioPage
+namespace RBT.App.Frontend.Pages.UsuarioAppPage
 {
-    public class ListarPropietario : PageModel
+    public class ListarUsuarioApp : PageModel
     {
-        
-        private readonly IRepositorioPropietario repositorioPropietario = new RepositorioPropietario(new Persistencia.AppContext());
+        private readonly IRepositorioUsuarioApp repositorioUsuarioApp = new RepositorioUsuarioApp(new Persistencia.AppContext());
         //CREAR UNA LISTA DONDE SE VA A GUARDAR LO QUE VENGA DEL REPOSITORIO
-        public IEnumerable<Propietario> ListaPropietario { get; set; }
+        public IEnumerable<UsuarioApp> ListaUsuariosApp { get; set; }
 
         public void OnGet()
         {
-            ListaPropietario = repositorioPropietario.ListarPropietarioAll();
+            ListaUsuariosApp = repositorioUsuarioApp.ListarUsuarioAppAll();
         }
         
         // Esta es la accion del boton eliminar--------------
         public IActionResult OnPost(int numeroId)
         {
-            repositorioPropietario.EliminarPropietario(numeroId);
+            repositorioUsuarioApp.EliminarUsuarioApp(numeroId);
             return RedirectToAction("Get");
         }
-        //----------------------------------------------------
     }
 }

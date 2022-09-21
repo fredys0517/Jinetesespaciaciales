@@ -11,10 +11,10 @@ using RBT.App.Persistencia;
 
 namespace RBT.App.Frontend.Pages.UsuarioAppPage
 {
-    public class CrearUsuario : PageModel
+    public class CrearUsuarioApp : PageModel
     {
         
-        private readonly IRepositorioUsuarioApp repositorioUsuario = new RepositorioUsuarioApp(
+        private readonly IRepositorioUsuarioApp repositorioUsuarioApp = new RepositorioUsuarioApp(
             new Persistencia.AppContext()
         );
         [BindProperty]
@@ -27,8 +27,8 @@ namespace RBT.App.Frontend.Pages.UsuarioAppPage
             if(!ModelState.IsValid)
             return Page();
 
-            repositorioUsuario.AgregarUsuarioApp(CreateUsu);
-            return RedirectToPage("./ListarUsuario");
+            repositorioUsuarioApp.AgregarUsuarioApp(CreateUsu);
+            return RedirectToPage("./ListarUsuarioApp");
         }
     }
 }
