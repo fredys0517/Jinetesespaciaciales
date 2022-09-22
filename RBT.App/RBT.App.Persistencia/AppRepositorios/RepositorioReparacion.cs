@@ -50,7 +50,7 @@ namespace RBT.App.Persistencia
         {// el simbolo "=>" quiere decir donde. La letra "m" hace referencia a la tabla reparaciones.
             var reparacionEncontrado= _appContext.Reparaciones.FirstOrDefault(m =>m.Id==reparacion.Id); // No estoy seguro de que sea "Reparacion.Id"
 
-            if(reparacionEncontrado!=null)
+            //if(reparacionEncontrado!=null)
             {
                 reparacionEncontrado.FechaReparacion=reparacion.FechaReparacion;
                 reparacionEncontrado.RepuestosCambiados=reparacion.RepuestosCambiados;
