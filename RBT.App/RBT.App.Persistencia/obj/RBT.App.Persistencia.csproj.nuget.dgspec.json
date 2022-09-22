@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Jinetesespaciaciales\\RBT.App\\RBT.App.Persistencia\\RBT.App.Persistencia.csproj": {}
+    "C:\\tutoria ultime\\Jinetesespaciaciales\\RBT.App\\RBT.App.Persistencia\\RBT.App.Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\Jinetesespaciaciales\\RBT.App\\RBT.App.Dominio\\RBT.App.Dominio.csproj": {
+    "C:\\tutoria ultime\\Jinetesespaciaciales\\RBT.App\\RBT.App.Dominio\\RBT.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jinetesespaciaciales\\RBT.App\\RBT.App.Dominio\\RBT.App.Dominio.csproj",
+        "projectUniqueName": "C:\\tutoria ultime\\Jinetesespaciaciales\\RBT.App\\RBT.App.Dominio\\RBT.App.Dominio.csproj",
         "projectName": "RBT.App.Dominio",
-        "projectPath": "C:\\Jinetesespaciaciales\\RBT.App\\RBT.App.Dominio\\RBT.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Jinetesespaciaciales\\RBT.App\\RBT.App.Dominio\\obj\\",
+        "projectPath": "C:\\tutoria ultime\\Jinetesespaciaciales\\RBT.App\\RBT.App.Dominio\\RBT.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\AUX-CATEGORIA\\.nuget\\packages\\",
+        "outputPath": "C:\\tutoria ultime\\Jinetesespaciaciales\\RBT.App\\RBT.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\AUX-CATEGORIA\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,8 +43,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,36 +52,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Jinetesespaciaciales\\RBT.App\\RBT.App.Persistencia\\RBT.App.Persistencia.csproj": {
+    "C:\\tutoria ultime\\Jinetesespaciaciales\\RBT.App\\RBT.App.Persistencia\\RBT.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Jinetesespaciaciales\\RBT.App\\RBT.App.Persistencia\\RBT.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\tutoria ultime\\Jinetesespaciaciales\\RBT.App\\RBT.App.Persistencia\\RBT.App.Persistencia.csproj",
         "projectName": "RBT.App.Persistencia",
-        "projectPath": "C:\\Jinetesespaciaciales\\RBT.App\\RBT.App.Persistencia\\RBT.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Jinetesespaciaciales\\RBT.App\\RBT.App.Persistencia\\obj\\",
+        "projectPath": "C:\\tutoria ultime\\Jinetesespaciaciales\\RBT.App\\RBT.App.Persistencia\\RBT.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\AUX-CATEGORIA\\.nuget\\packages\\",
+        "outputPath": "C:\\tutoria ultime\\Jinetesespaciaciales\\RBT.App\\RBT.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\AUX-CATEGORIA\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Jinetesespaciaciales\\RBT.App\\RBT.App.Dominio\\RBT.App.Dominio.csproj": {
-                "projectPath": "C:\\Jinetesespaciaciales\\RBT.App\\RBT.App.Dominio\\RBT.App.Dominio.csproj"
+              "C:\\tutoria ultime\\Jinetesespaciaciales\\RBT.App\\RBT.App.Dominio\\RBT.App.Dominio.csproj": {
+                "projectPath": "C:\\tutoria ultime\\Jinetesespaciaciales\\RBT.App\\RBT.App.Dominio\\RBT.App.Dominio.csproj"
               }
             }
           }
@@ -126,8 +121,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -136,7 +130,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }
